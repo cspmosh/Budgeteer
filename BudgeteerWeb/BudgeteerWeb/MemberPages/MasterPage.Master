@@ -1,0 +1,105 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb" Inherits="BudgeteerWeb.MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+		<title>Budgeteer</title>
+	    <script type="text/javascript">
+	        LogoImage = new Image(1, 1);
+	        LogoImage.src = "/Images/budgeteerLogo.png";        
+        </script>
+        <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+        <link href="/CSS/budgeteer.css" rel="stylesheet" type="text/css" /> 
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/Scripts/ddsmoothmenu.js">
+		    /***********************************************
+		    * Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+		    * This notice MUST stay intact for legal use
+		    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+		    ***********************************************/
+		</script>
+		<script type="text/javascript">
+		    ddsmoothmenu.init({
+		        mainmenuid: "smoothmenu", //menu DIV id
+		        orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+		        classname: 'ddsmoothmenu', //class added to menu's outer DIV			
+		        contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+		    })
+		</script>
+	</head>
+	<body>
+	    <form name="form1" id="form2" runat="server">  
+		<div id="masterHeaderContainer">
+			<div id="masterHeader">
+				<div style="float: left; width: 324px; border: 0px solid #000;"><img src="/Images/budgeteerLogo.png" alt="logo" style="padding-left:10px; padding-top: 10px;"/></div>
+				<div id="masterHeaderMessageContainer"><asp:Label ID="lblWelcome" runat="server" Text="Welcome, user!"></asp:Label></div>
+				<div id="masterTabContainer"><div id="masterTab"><div id="masterTabFiller"><a href="/MemberPages/UserAccount/Index.aspx">Account</a><a href="/Support/FAQ.aspx">Help</a><a href="/Logout.aspx">Logout</a></div></div></div>
+			</div>
+		</div>
+		<div id="masterNavigationContainer">
+			<div id="masterNavigation">			
+				<div id="smoothmenu" class="ddsmoothmenu" style="clear: both; margin-left: 10px; ">
+					<ul>
+						<li><a href="/MemberPages/BankAccounts/Index.aspx">Bank Accounts</a>
+						    <ul>
+						        <li><a href="/MemberPages/BankAccounts/Index.aspx">Edit Bank Accounts</a></li>
+						    </ul>
+						</li>
+						<li><a href="/MemberPages/Budgets/Index.aspx">Budgets</a>
+							<ul>
+							  <li><a href="/MemberPages/Budgets/Index.aspx">Edit Budgets</a></li>
+							</ul>
+						</li>			
+						<li><a href="/MemberPages/Transactions/Index.aspx">Transactions</a>
+							<ul>
+							  <li><a href="/MemberPages/Transactions/Index.aspx">Edit Transactions</a></li>
+							  <li><a href="/MemberPages/Transactions/Categories/Index.aspx">Edit Categories</a></li>
+							</ul>
+						</li>						
+					</ul>
+					<br style="clear: left" />
+				</div>					
+			</div>
+		</div>		
+		<div id="masterContentContainer">
+			<div id="masterBreadcrumbs"><asp:ContentPlaceHolder ID="breadcrumbs" runat="server"></asp:ContentPlaceHolder></div><br/>
+			<div id="masterPageTitle"><asp:ContentPlaceHolder ID="pageTitle" runat="server"></asp:ContentPlaceHolder></div><br />	
+			<div id="masterContent"><asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server"></asp:ContentPlaceHolder></div>
+		</div>	
+		<div style="margin: auto; width: 1024px;"><img src="/Images/shadow_bottom.png" alt="" /></div>
+		</form>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+                                        
+
+
+

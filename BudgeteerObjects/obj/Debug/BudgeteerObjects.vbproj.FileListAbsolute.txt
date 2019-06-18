@@ -1,0 +1,9 @@
+C:\Develop\Budgeteer\BudgeteerObjects\bin\Debug\BudgeteerObjects.dll
+C:\Develop\Budgeteer\BudgeteerObjects\bin\Debug\BudgeteerObjects.pdb
+C:\Develop\Budgeteer\BudgeteerObjects\bin\Debug\BudgeteerObjects.xml
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Debug\ResolveAssemblyReference.cache
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Debug\BudgeteerObjects.Resources.resources
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Debug\BudgeteerObjects.vbproj.GenerateResource.Cache
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Debug\BudgeteerObjects.dll
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Debug\BudgeteerObjects.xml
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Debug\BudgeteerObjects.pdb

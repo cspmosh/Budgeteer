@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="06ff4613-571b-459f-b8f6-d2a3cbb84547" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/budgeteer.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Budgeteer1.disco" MetadataType="Disco" ID="9924047d-3996-4ae6-baae-a633306853d7" SourceId="1" SourceUrl="http://tolkien:8000/Budgeteer.svc?disco" />
+    <MetadataFile FileName="Budgeteer4.xsd" MetadataType="Schema" ID="3e9a9027-07c1-45d6-9c0b-005f7dee64d9" SourceId="1" SourceUrl="http://tolkien:8000/Budgeteer.svc?xsd=xsd1" />
+    <MetadataFile FileName="Budgeteer1.wsdl" MetadataType="Wsdl" ID="770c83fa-b0dd-42fa-89fb-a23a7d9c3d20" SourceId="1" SourceUrl="http://tolkien:8000/Budgeteer.svc?wsdl" />
+    <MetadataFile FileName="Budgeteer5.xsd" MetadataType="Schema" ID="bb919375-2a1b-453f-b2bd-e453bb2df650" SourceId="1" SourceUrl="http://tolkien:8000/Budgeteer.svc?xsd=xsd0" />
+    <MetadataFile FileName="Budgeteer6.xsd" MetadataType="Schema" ID="c66cc88d-a76a-41c8-96cc-20304aac39f5" SourceId="1" SourceUrl="http://tolkien:8000/Budgeteer.svc?xsd=xsd3" />
+    <MetadataFile FileName="Budgeteer7.xsd" MetadataType="Schema" ID="d9a74dcd-5add-4483-bd7a-e05748b76324" SourceId="1" SourceUrl="http://tolkien:8000/Budgeteer.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

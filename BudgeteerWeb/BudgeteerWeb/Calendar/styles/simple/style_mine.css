@@ -1,0 +1,79 @@
+.calendarCalendar {
+	background-color:#FFFFFF;
+	text-align:left;
+}
+
+.calendarTitle {
+	font:12px Courier New;
+	color:#333333;
+	text-align:center;	
+}
+.calendarArrowLeft {
+	font:bold 13px Courier New;
+	color:#333333;
+	margin-left:8px;
+	cursor:pointer; cursor:hand;
+}
+.calendarArrowRight{
+	font:bold 13px Courier New;
+	color:#333333;	
+	margin-right:8px;
+	cursor:pointer; cursor:hand;
+}
+
+.calendarMonth {
+	background-color: #FFFFFF;
+}
+.calendarMonthTitle {
+	font:bold 12px Courier New;
+	letter-spacing: 1.2;
+	text-align:center;
+	padding:4px;
+	color:white;
+	background-color:#003265;
+	border-bottom: 1px solid black;
+}
+
+.calendarDayName {
+	font:bold 10px Courier New;
+	letter-spacing: 1.1;
+	color:white;
+	text-align:center;
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color: #B8C6D3;
+}
+.calendarDay {
+	font:11px Courier New;
+	color:#013366;
+	text-align:center;
+	cursor:pointer; cursor:hand;
+}
+.calendarDayToday {
+	font:11px Courier New;
+	color:white;
+	text-align:center;
+	background-color:#003265;
+	cursor:pointer; cursor:hand;
+}
+.calendarDayDisabled {
+	font:11px Courier New;
+	color:#C0C2C1;
+	text-align:center;
+}
+.calendarDaySelected {
+	font:11px Courier New;
+	color:navy;
+	text-align:center;
+	background-color:#B8C6D3;
+	cursor:hand; cursor:pointer;
+}
+.calendarDaySpecial {
+	font:11px Courier New;
+	color:red;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+}
+
+.calendarDatePickerButton {
+}

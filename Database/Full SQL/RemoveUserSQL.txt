@@ -1,0 +1,2 @@
+# Delete user from Database
+DELETE FROM accounts where user_id = 

@@ -1,0 +1,17 @@
+***6115	Amazon CC	Credit Card	0.00	0
+	Cash/Other	Cash	0.00	1
+***4425	Chase Checking	Checking	0.00	1
+0281	Discover Gift Card	Credit Card	0.00	0
+***0613	Fifth Third Bank	Checking	0.00	0
+***3907	Fifth Third MC	Credit Card	0.00	0
+***0920	FNBO Direct	Savings	0.00	0
+***4540	Freedom	Credit Card	-245.48	1
+***0811	Perkstreet	Checking	5056.78	1
+1691	Rewards Card (1691)	Rewards Card	0.00	0
+4416	Rewards Card (4416)	Rewards Card	0.00	0
+6464	Rewards Card (6464)	Credit Card	0.00	0
+7747	Rewards Card (7747)	Rewards Card	37.35	1
+7873	Rewards Card (7873)	Rewards Card	0.00	0
+8627	Rewards Card (8627)	Credit Card	0.00	0
+	Sears Card	Credit Card	0.00	0
+***0418	Williamstown	Checking	2409.15	1

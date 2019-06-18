@@ -1,0 +1,133 @@
+	.calendarCalendar {
+		border:0px solid #999999;
+		background-color:#FFFFFF;
+		text-align:left;
+	}
+	.calendarTitle {
+		font:bold 12px Tahoma;
+		color:#333333;
+		text-align:center;
+		padding-bottom:6px;
+		padding-top:2px;
+	}
+	.calendarArrowLeft {
+		font:bold 12px Tahoma;
+		color:#333333;
+		text-align:center;
+		padding-left:4px;
+		padding-right:4px;
+		padding-bottom:6px;
+		padding-top:2px;
+		cursor:pointer; cursor:hand;
+	}
+	.calendarArrowRight{
+		font:bold 12px Tahoma;
+		color:#333333;
+		text-align:center;
+		padding-left:4px;
+		padding-right:4px;
+		padding-bottom:6px;
+		padding-top:2px;
+		cursor:pointer; cursor:hand;
+	}
+	.calendarMonth {
+		background-color:#F6F6F6;
+		border:1px solid #dddddd;
+	}
+	.calendarMonthTitle {
+		display:none;
+	}
+	.calendarDayName {
+		font:bold 11px Tahoma;
+		color:#333333;
+		text-align:center;
+	}
+	.calendarDay {
+		font:11px Tahoma;
+		color:#333333;
+		text-align:center;
+		padding:1px;
+		border:1px solid #F6F6F6;
+		cursor:pointer; cursor:hand;
+	}
+	.calendarDayOver {
+		font:11px Tahoma;
+		color:#333333;
+		text-align:center;
+		padding:1px;
+		border:1px solid #F6F6F6;
+		cursor:pointer; cursor:hand;
+	}
+	.calendarDayToday {
+		font:bold 11px Tahoma;
+		color:navy;
+		text-align:center;
+		padding:1px;
+		background-color:#99ccee;
+		border:1px solid #ECECEE;
+		cursor:pointer; cursor:hand;
+	}
+	.calendarDayTodayOver {
+		font:bold 11px Tahoma;
+		color:navy;
+		text-align:center;
+		padding:1px;
+		background-color:#99ccee;
+		border:1px solid #ECECEE;
+		cursor:pointer; cursor:hand;
+	}
+	.calendarDayDisabled {
+		font:11px Tahoma;
+		color:#C0C2C1;
+		text-align:center;
+		padding:1px;
+		border:1px solid #F6F6F6;
+	}
+	.calendarDayDisabledOver {
+		font:11px Tahoma;
+		color:#C0C2C1;
+		text-align:center;
+		padding:1px;
+		border:1px solid #F6F6F6;
+	}
+	.calendarDaySelected {
+		font:bold 11px Tahoma;
+		color:maroon;
+		text-align:center;
+		border:1px solid crimson;
+		background-color:gold;
+	}
+	.calendarDaySelectedOver {
+		font:bold 11px Tahoma;
+		color:maroon;
+		text-align:center;
+		border:1px solid crimson;
+		background-color:gold;
+	}
+	.calendarDaySpecial {
+		font:bold 11px Tahoma;
+		color:crimson;
+		text-align:center;
+		padding:1px;
+		border:0px solid #993766;
+	}
+	.calendarDaySpecialOver {
+		font:bold 11px Tahoma;
+		color:crimson;
+		text-align:center;
+		padding:1px;
+		border:0px solid #993766;
+	}
+	
+	.calendarDatePickerButton {
+		cursor:pointer; cursor:hand;
+		vertical-align:bottom;
+	}
+	
+	.specialDateJuly4 {
+		background-image:url('../flag_usa.gif');
+		background-position:center center;
+		background-repeat:no-repeat;
+		font-size:1px;
+		color:#F6F6F6;
+	}

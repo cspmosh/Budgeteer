@@ -1,0 +1,456 @@
+.calendarCalendar {
+        border:0px;
+	background-color: Black;
+	text-align:left;
+}
+.calendarTitle {
+	font:bold 10px Tahoma;
+	text-align:center;
+	padding: 2px;	
+	color: White;
+        margin:0px;
+		border:0px;
+}
+
+.calendarArrowLeft {
+	font:bold 10px Tahoma;
+	text-align:center;
+        padding:0px;
+	padding-bottom: 5px;
+	cursor:hand; cursor:pointer;
+	background-color: transparent;
+	color: White;
+	margin-left:10px;
+	border:0px;
+}
+
+.calendarArrowRight {
+	font:bold 10px Tahoma;
+	text-align:center;
+        padding:0px;
+	padding-bottom: 5px;
+	cursor:hand; cursor:pointer;
+	color: White;
+        margin:0px;
+	margin-right:10px;
+	border:0px;
+}
+
+.calendarMonth {
+        background-color:black;
+	border:0px;
+}
+
+.calendarMonthTitle {
+	font: bold 11px Tahoma;
+	text-align:center;
+        padding:0px;
+	padding-bottom:5px;	
+	color: White;
+}
+
+.calendarDayName {
+	font: bold 9px Verdana;
+	text-align:center;
+        padding:0px;
+	padding-bottom: 6px;
+	color: White;
+}
+
+.calendarDay {
+	font:10px Tahoma;
+	color: #DDDDDD;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+	text-align: center;
+	border:1px solid #000000;
+        padding:0px;
+}
+
+.calendarDayover {
+	font:10px Tahoma;
+	color: #DDDDDD;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+	text-align: center;
+	border:1px solid #DDDDDD;
+        padding:0px;
+}
+
+.calendarDayToday {
+	font:bold 9px Tahoma;
+	text-align:center;
+	color:#AB0707;
+        padding:0px;
+        background-color:black;
+	border:1px solid #AB0707;
+	cursor:hand; cursor:pointer;
+	text-align: center;
+}
+
+.calendarDayTodayOver {
+	font:bold 9px Tahoma;
+	text-align:center;
+	color:#AB0707;
+        padding:0px;
+        background-color:black;
+	border:1px solid #AB0707;
+	cursor:hand; cursor:pointer;
+	text-align: center;
+}
+
+.calendarDayDisabled {
+	font:10px Tahoma;
+	color:#333333;
+	text-align:center;
+	padding:0px;
+	border:1px solid #000000;
+}
+
+.calendarDayDisabledOver {
+	font:10px Tahoma;
+	color:#333333;
+	text-align:center;
+	padding:0px;
+	border:1px solid #000000;
+}
+
+.calendarDaySelected {
+	font:bold 9px Tahoma;
+	color:black;
+	background-color:white;
+	border:1px solid #FFFFFF;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+        padding:0px;
+}
+
+.calendarDaySelectedOver {
+	font:bold 9px Tahoma;
+	color:black;
+	background-color:white;
+	border:1px solid #FFFFFF;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+        padding:0px;
+}
+
+.calendarDaySpecial {
+	font:bold 9px Tahoma;
+	color:#0739AB;
+	border:1px solid #0739AB;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+}
+
+.calendarDaySpecialOver {
+	font:bold 9px Tahoma;
+	color:#0739AB;
+	border:1px solid #0739AB;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+}
+
+.calendarDatePickerButton {
+	cursor:pointer; cursor:hand;
+	vertical-align:bottom;
+}
+
+/******************/
+/* year selector */
+.calendarYearSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarYearSelectorContainer
+{
+	border:1px solid #ffffff;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#000000;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarYearSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarYearSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarYearSelected
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	text-align:center;
+	background-color:#ffffff;
+	color:#000000;
+}
+.calendarYearSelector
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	color:#ffffff;
+	text-align:center;
+}
+/* year selector */
+/******************/
+
+/******************/
+/* month selector */
+.calendarMonthSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarMonthSelectorContainer
+{
+	border:1px solid #ffffff;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#000000;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarMonthSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMonthSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMonthSelected
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	text-align:center;
+	background-color:#ffffff;
+	color:#000000;
+}
+.calendarMonthSelector
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	color:#ffffff;
+	text-align:center;
+}
+/* month selector */
+/******************/
+
+/******************/
+/* hour selector */
+.calendarHourSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarHourSelectorContainer
+{
+	border:1px solid #ffffff;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#000000;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarHourSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarHourSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarHourSelected
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	text-align:center;
+	background-color:#ffffff;
+	color:#000000;
+}
+.calendarHourSelector
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	color:#ffffff;
+	text-align:center;
+}
+/* hour selector */
+/******************/
+
+/******************/
+/* minute selector */
+.calendarMinuteSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarMinuteSelectorContainer
+{
+	border:1px solid #ffffff;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#000000;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarMinuteSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMinuteSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMinuteSelected
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	text-align:center;
+	background-color:#ffffff;
+	color:#000000;
+}
+.calendarMinuteSelector
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	color:#ffffff;
+	text-align:center;
+}
+/* minute selector */
+/******************/
+
+/******************/
+/* second selector */
+.calendarSecondSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarSecondSelectorContainer
+{
+	border:1px solid #ffffff;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#000000;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	text-align:center;
+}
+.calendarSecondSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarSecondSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarSecondSelected
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	text-align:center;
+	background-color:#ffffff;
+	color:#000000;
+}
+.calendarSecondSelector
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	color:#ffffff;
+	text-align:center;
+}
+/* second selector */
+/******************/
+
+.calendarSelectTime
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	padding:5px;
+	text-decoration:none;
+	text-align:center;
+}
+.calendarSelectTime:hover
+{
+	cursor:pointer;
+	font:bold 10px Tahoma;
+	color:#DDDDDD;
+	padding:5px;
+	text-decoration:none;
+	text-align:center;
+}

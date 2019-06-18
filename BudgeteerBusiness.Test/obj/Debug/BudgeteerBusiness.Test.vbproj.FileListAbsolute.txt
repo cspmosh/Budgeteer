@@ -1,0 +1,17 @@
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerBusiness.Test.dll
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerBusiness.Test.pdb
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerBusiness.Test.xml
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerBusiness.dll
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerDAL.dll
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerObjects.dll
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerDAL.pdb
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerDAL.xml
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerObjects.pdb
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerObjects.xml
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerBusiness.pdb
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerBusiness.xml
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\obj\Debug\BudgeteerBusiness.Test.dll
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\obj\Debug\BudgeteerBusiness.Test.xml
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\obj\Debug\BudgeteerBusiness.Test.pdb
+C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerBusiness.Test.dll.config

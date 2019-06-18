@@ -1,0 +1,611 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BudgeteerBusiness.Test
+</name>
+</assembly>
+<members>
+<member name="P:BudgeteerBusiness.Test.CategoryTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.getCategoriesTest">
+	<summary>
+A test for getCategories
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.getCategoriesUserIDNothing">
+	<summary>
+A test for getCategories
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.addCategoryTest">
+	<summary>
+A test for addCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.addCategoryNothing">
+	<summary>
+A test for addCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.addCategoryDescriptionNothing">
+	<summary>
+A test for addCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.addCategoryDescriptionMaxLen">
+	<summary>
+A test for addCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.addCategoryUserIDNothing">
+	<summary>
+A test for addCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.updateCategoryTest">
+	<summary>
+A test for updateCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.updateCategoryNothing">
+	<summary>
+A test for updateCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.updateCategoryCategoryIDNothing">
+	<summary>
+A test for updateCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.updateCategoryDescriptionNothing">
+	<summary>
+A test for updateCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.updateCategoryUserIDNothing">
+	<summary>
+A test for updateCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.deleteCategoryTest">
+	<summary>
+A test for deleteCategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.CategoryTest.deleteCategoryCategoryIDNothing">
+	<summary>
+A test for deleteCategory
+</summary>
+</member><member name="T:BudgeteerBusiness.Test.CategoryTest">
+	<summary>
+This is a test class for CategoryTest and is intended
+to contain all CategoryTest Unit Tests
+</summary>
+</member><member name="P:BudgeteerBusiness.Test.UserTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserTest">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.activateUserTest">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserUserIDNothing">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserUserIDMaxLen">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserPasswordNothing">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserPasswordMaxLen">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserFirstNameNothing">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserFirstNameMaxLen">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserLastNameNothing">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserLastNameMaxLen">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserEmailAddressNothing">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.addUserEmailAddressMaxLen">
+	<summary>
+A test for addUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.updateUserPasswordTest">
+	<summary>
+A test for updateUserPassword
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.updateUserEmailAddressUserIDNothing">
+	<summary>
+A test for updateUserEmail
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.updateUserEmailAddressUserIDMaxLen">
+	<summary>
+A test for updateUserEmail
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.updateUserEmailAddressEmailNothing">
+	<summary>
+A test for updateUserEmail
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.updateUserEmailAddressEmailMaxLen">
+	<summary>
+A test for updateUserEmail
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.getUserTest">
+	<summary>
+A test for getUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.getUserUserIDNothing">
+	<summary>
+A test for getUser
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.UserTest.getUserUserIDMaxLen">
+	<summary>
+A test for getUser
+</summary>
+</member><member name="T:BudgeteerBusiness.Test.UserTest">
+	<summary>
+This is a test class for UserTest and is intended
+to contain all UserTest Unit Tests
+</summary>
+</member><member name="P:BudgeteerBusiness.Test.BankAccountTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.GetAccountsTest">
+	<summary>
+A test for GetAccounts
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.GetAccountsUserIDNothing">
+	<summary>
+A test for GetAccounts
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.GetAccountTest">
+	<summary>
+A test for GetAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.GetAccountAccountIDNothing">
+	<summary>
+A test for GetAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AddAccountTest">
+	<summary>
+A test for AddAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AddAccountAccountNothing">
+	<summary>
+A test for AddAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AddAccountAccountNumberMaxLen">
+	<summary>
+A test for AddAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AddAccountAccountNameNothing">
+	<summary>
+A test for AddAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AddAccountAccountNameMaxLen">
+	<summary>
+A test for AddAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AddAccountAccountTypeMaxLen">
+	<summary>
+A test for AddAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AddAccountActiveStatusNotYN">
+	<summary>
+A test for AddAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AddAccountUserIDNothing">
+	<summary>
+A test for AddAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AccountUpdateTest">
+	<summary>
+A test for AccountUpdate
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AccountUpdateAccountNothing">
+	<summary>
+A test for AccountUpdate
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AccountUpdateAccountIDNothing">
+	<summary>
+A test for AccountUpdate
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AccountUpdateAccountNumberMaxLen">
+	<summary>
+A test for AccountUpdate
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AccountUpdateAccountNameNothing">
+	<summary>
+A test for AccountUpdate
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AccountUpdateAccountNameMaxLen">
+	<summary>
+A test for AccountUpdate
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AccountUpdateAccountTypeMaxLen">
+	<summary>
+A test for AccountUpdate
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.AccountUpdateActiveStatusNotYN">
+	<summary>
+A test for AccountUpdate
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.DeleteAccountTest">
+	<summary>
+A test for DeleteAccount
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BankAccountTest.DeleteAccountAccountIDNothing">
+	<summary>
+A test for DeleteAccount
+</summary>
+</member><member name="T:BudgeteerBusiness.Test.BankAccountTest">
+	<summary>
+This is a test class for AccountTest and is intended
+to contain all AccountTest Unit Tests
+</summary>
+</member><member name="P:BudgeteerBusiness.Test.SubcategoryTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.getSubcategoriesTest">
+	<summary>
+A test for getSubcategories
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.getSubcategoriesByCategoryID">
+	<summary>
+A test for getSubcategories
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.getSubcategoriesUserIDNothing">
+	<summary>
+A test for getSubcategories
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.getSubcategoryTest">
+	<summary>
+A test for getSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.getSubcategorySubcategoryIDNothing">
+	<summary>
+A test for getSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.addSubcategoryTest">
+	<summary>
+A test for addSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.addSubcategorySubcategoryNothing">
+	<summary>
+A test for addSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.addSubcategoryCategoryIDNothing">
+	<summary>
+A test for addSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.addSubcategoryDescriptionNothing">
+	<summary>
+A test for addSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.addSubcategoryDescriptionMaxLen">
+	<summary>
+A test for addSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.addSubcategorySinkingFundNotYOrN">
+	<summary>
+A test for addSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.addSubcategoryNotesMaxLen">
+	<summary>
+A test for addSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.addSubcategoryUserIDNothing">
+	<summary>
+A test for addSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.updateSubcategoryTest">
+	<summary>
+A test for updateSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.updateSubcategorySubcategoryNothing">
+	<summary>
+A test for updateSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.updateSubcategorySubcategoryIDNothing">
+	<summary>
+A test for updateSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.updateSubcategoryCategoryIDNothing">
+	<summary>
+A test for updateSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.updateSubcategoryDescriptionNothing">
+	<summary>
+A test for updateSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.updateSubcategoryDescriptionMaxLen">
+	<summary>
+A test for updateSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.updateSubcategorySinkingFundNotYOrN">
+	<summary>
+A test for updateSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.updateSubcategoryNotesMaxLen">
+	<summary>
+A test for updateSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.deleteSubcategoryTest">
+	<summary>
+A test for deleteSubcategory
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SubcategoryTest.deleteSubcategorySubcategoryIDNothing">
+	<summary>
+A test for deleteSubcategory
+</summary>
+</member><member name="T:BudgeteerBusiness.Test.SubcategoryTest">
+	<summary>
+This is a test class for SubcategoryTest and is intended
+to contain all SubcategoryTest Unit Tests
+</summary>
+</member><member name="P:BudgeteerBusiness.Test.ApplicationSettingTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.getSettingsTest">
+	<summary>
+A test for getSettings
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.getSettingsUserIDBlank">
+	<summary>
+A test for getSettings
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.getSettingTest">
+	<summary>
+A test for getSetting
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.getSettingUserIDBlank">
+	<summary>
+A test for getSetting
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.getSettingSettingBlank">
+	<summary>
+A test for getSetting
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.setSettingTest">
+	<summary>
+A test for setSetting
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.setSettingUserIDBlank">
+	<summary>
+A test for setSetting
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.setSettingSettingBlank">
+	<summary>
+A test for setSetting
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.setSettingSettingMaxLen">
+	<summary>
+A test for setSetting
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.setSettingValueMaxLen">
+	<summary>
+A test for setSetting
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.ApplicationSettingTest.setSettingValueBlank">
+	<summary>
+A test for setSetting
+</summary>
+</member><member name="T:BudgeteerBusiness.Test.ApplicationSettingTest">
+	<summary>
+This is a test class for ApplicationSettingTest and is intended
+to contain all ApplicationSettingTest Unit Tests
+</summary>
+</member><member name="P:BudgeteerBusiness.Test.TransactionTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.getTransactionFirstYear">
+	<summary>
+A test for getTransactionFirstYear
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.getTransactionsTest">
+	<summary>
+A test for getTransactions
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.getTransactionsUserIDNothing">
+	<summary>
+A test for getTransactions
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.addTransactionTest">
+	<summary>
+A test for addTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.addTransactionTransactionNothing">
+	<summary>
+A test for addTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.addTransactionDateNothing">
+	<summary>
+A test for addTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.addTransactionDescriptionNothing">
+	<summary>
+A test for addTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.addTransactionDescriptionMaxLen">
+	<summary>
+A test for addTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.addTransactionUserIDNothing">
+	<summary>
+A test for addTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.addTransactionAccountAdjust">
+	<summary>
+A test for addTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.addTransactionSFSubcategoryAdjust">
+	<summary>
+A test for addTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.updateTransactionTest">
+	<summary>
+A test for updateTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.updateTransactionTransactionNothing">
+	<summary>
+A test for updateTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.updateTransactionTransactionIDNothing">
+	<summary>
+A test for updateTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.updateTransactionDateNothing">
+	<summary>
+A test for updateTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.updateTransactionDescriptionNothing">
+	<summary>
+A test for updateTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.updateTransactionDescriptionMaxLen">
+	<summary>
+A test for updateTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.updateTransactionAccountAdjust">
+	<summary>
+A test for updateTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.updateTransactionSFSubcategoryAdjust">
+	<summary>
+A test for updaTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.deleteTransactionTest">
+	<summary>
+A test for deleteTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.deleteTransactionTransactionIDNothing">
+	<summary>
+A test for deleteTransaction
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.TransactionTest.deleteTransactionAccountAdjust">
+	<summary>
+A test for deleteTransaction
+</summary>
+</member><member name="T:BudgeteerBusiness.Test.TransactionTest">
+	<summary>
+This is a test class for TransactionTest and is intended
+to contain all TransactionTest Unit Tests
+</summary>
+</member><member name="P:BudgeteerBusiness.Test.BudgetTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.GetBudgetsTest">
+	<summary>
+A test for GetBudgets
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.GetBudgetsUserIDBlank">
+	<summary>
+A test for GetBudgets
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.GetBudgetsByCriteriaTest">
+	<summary>
+A test for GetBudgets
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.AddBudgetTest">
+	<summary>
+A test for AddBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.AddBudgetBudgetNothing">
+	<summary>
+A test for AddBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.AddBudgetStartDateBlank">
+	<summary>
+A test for AddBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.AddBudgetSubcategoryBlank">
+	<summary>
+A test for AddBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.AddBudgetUserIDBlank">
+	<summary>
+A test for AddBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.UpdateBudgetTest">
+	<summary>
+A test for UpdateBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.UpdateBudgetBudgetNothing">
+	<summary>
+A test for UpdateBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.UpdateBudgetBudgetIDBlank">
+	<summary>
+A test for UpdateBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.UpdateBudgetSubcategoryIDBlank">
+	<summary>
+A test for UpdateBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.UpdateBudgetStartDateBlank">
+	<summary>
+A test for UpdateBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.deleteBudgetTest">
+	<summary>
+A test for deleteBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.deleteBudgetBudgetIDBlank">
+	<summary>
+A test for deleteBudget
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.GetUtilizedDollarsByDateTest">
+	<summary>
+A test for GetUtilizedDollarsByDate
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.BudgetTest.CopyBudgetsTest">
+	<summary>
+A test for CopyBudgets
+</summary>
+</member><member name="T:BudgeteerBusiness.Test.BudgetTest">
+	<summary>
+This is a test class for BudgetTest and is intended
+to contain all BudgetTest Unit Tests
+</summary>
+</member><member name="P:BudgeteerBusiness.Test.SecurityTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:BudgeteerBusiness.Test.SecurityTest.authenticateUserTest">
+	<summary>
+A test for authenticateUser
+</summary>
+</member><member name="T:BudgeteerBusiness.Test.SecurityTest">
+	<summary>
+This is a test class for SecurityTest and is intended
+to contain all SecurityTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

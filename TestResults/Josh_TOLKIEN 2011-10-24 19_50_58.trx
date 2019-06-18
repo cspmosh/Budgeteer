@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8f6519a4-03a4-4273-a07f-4984b720be9f" name="Josh@TOLKIEN 2011-10-24 19:50:58" runUser="Tolkien\Josh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="8ba3157e-c793-4762-8e20-abcfc481c21a">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Develop\Budgeteer\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="C:\Develop\Budgeteer\TestResults\Josh_TOLKIEN 2011-10-24 19_50_58">
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerDAL\bin\Release\BudgeteerDAL.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerBusiness\bin\Release\BudgeteerBusiness.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-10-24T19:50:58.7536367-04:00" queuing="2011-10-24T19:51:02.6748610-04:00" start="2011-10-24T19:51:02.9838787-04:00" finish="2011-10-24T19:51:04.1199436-04:00" />
+  <TestDefinitions>
+    <UnitTest name="GetUtilizedDollarsByDateTest" storage="c:\develop\budgeteer\budgeteerbusiness.test\bin\release\budgeteerbusiness.test.dll" id="d188c60f-453a-8777-2c99-0dcd4ad79808">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ebdf5baf-a4e5-42fb-89cb-8c28ce40bb01" />
+      <TestMethod codeBase="C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Release\BudgeteerBusiness.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BudgeteerBusiness.Test.BudgetTest, BudgeteerBusiness.Test" name="GetUtilizedDollarsByDateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d188c60f-453a-8777-2c99-0dcd4ad79808" executionId="ebdf5baf-a4e5-42fb-89cb-8c28ce40bb01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ebdf5baf-a4e5-42fb-89cb-8c28ce40bb01" testId="d188c60f-453a-8777-2c99-0dcd4ad79808" testName="GetUtilizedDollarsByDateTest" computerName="TOLKIEN" duration="00:00:00.2262509" startTime="2011-10-24T19:51:03.0998853-04:00" endTime="2011-10-24T19:51:04.0329387-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BudgeteerBusiness.Test.BudgetTest.GetUtilizedDollarsByDateTest threw exception:  System.Exception: SQL Exception  ---&gt;  System.Data.Odbc.OdbcException: ERROR [HY000] [MySQL][ODBC 5.1 Driver][mysqld-5.1.51-community]Data too long for column '_statement' at row 1.</Message>
+          <StackTrace>    at System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   at System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   at System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Odbc.OdbcCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at BudgeteerDAL.DbHelper.ExecuteDataSet(CommandType cmdType, String cmdText, DbParameter[] cmdParms, DistributedTransaction&amp; transaction) in C:\Develop\Budgeteer\BudgeteerDAL\DBHelper.vb:line 590
+ --- End of inner exception stack trace ---
+    at BudgeteerBusiness.Budget.GetUtilizedDollarsByDate(String userID, Nullable`1 budgetDate, String subcategoryType) in C:\Develop\Budgeteer\BudgeteerBusiness\Budget.vb:line 351
+   at BudgeteerBusiness.Test.BudgetTest.GetUtilizedDollarsByDateTest() in C:\Develop\Budgeteer\BudgeteerBusiness.Test\BudgetTest.vb:line 331
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

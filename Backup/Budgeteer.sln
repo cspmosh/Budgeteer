@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BudgeteerDAL", "BudgeteerDAL\BudgeteerDAL.vbproj", "{8442DA43-4BAC-4CD9-B60B-9F596651EC9F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BudgeteerObjects", "BudgeteerObjects\BudgeteerObjects.vbproj", "{7C05825D-02A5-4267-BD11-6F695EF712BA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BudgeteerBusiness", "BudgeteerBusiness\BudgeteerBusiness.vbproj", "{301C6EF9-EBE7-4930-954D-7FCDB695C87C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BudgeteerService", "BudgeteerService\BudgeteerService.vbproj", "{30E7B926-55E7-4168-B043-E99461F0BDFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A2DA0F5-D299-4138-977D-128F410AF392}"
+	ProjectSection(SolutionItems) = preProject
+		Budgeteer.vsmdi = Budgeteer.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BudgeteerBusiness.Test", "BudgeteerBusiness.Test\BudgeteerBusiness.Test.vbproj", "{F59EF7FD-9B6D-46B4-8077-46B959BA111A}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Budgeteer.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8442DA43-4BAC-4CD9-B60B-9F596651EC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8442DA43-4BAC-4CD9-B60B-9F596651EC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8442DA43-4BAC-4CD9-B60B-9F596651EC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8442DA43-4BAC-4CD9-B60B-9F596651EC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C05825D-02A5-4267-BD11-6F695EF712BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C05825D-02A5-4267-BD11-6F695EF712BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C05825D-02A5-4267-BD11-6F695EF712BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C05825D-02A5-4267-BD11-6F695EF712BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301C6EF9-EBE7-4930-954D-7FCDB695C87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301C6EF9-EBE7-4930-954D-7FCDB695C87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301C6EF9-EBE7-4930-954D-7FCDB695C87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301C6EF9-EBE7-4930-954D-7FCDB695C87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E7B926-55E7-4168-B043-E99461F0BDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E7B926-55E7-4168-B043-E99461F0BDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E7B926-55E7-4168-B043-E99461F0BDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E7B926-55E7-4168-B043-E99461F0BDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59EF7FD-9B6D-46B4-8077-46B959BA111A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59EF7FD-9B6D-46B4-8077-46B959BA111A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59EF7FD-9B6D-46B4-8077-46B959BA111A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59EF7FD-9B6D-46B4-8077-46B959BA111A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

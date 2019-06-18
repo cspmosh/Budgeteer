@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC76E792-A8E0-4F35-8CD7-CD7ECB0DE2FA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BudgeteerWeb</RootNamespace>
+    <AssemblyName>BudgeteerWeb</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>BudgeteerWeb.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>BudgeteerWeb.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.50508.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Users\Josh\Downloads\AjaxControlToolkit.Binary.NET35\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DayPilot.MonthPicker, Version=1.0.21.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="EO.Web, Version=8.0.60.2, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Users\Josh\Documents\Visual Studio 2008\Controls\EO.Web\EO.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Calendar2_Net, Version=2.9.7.0, Culture=neutral, PublicKeyToken=b114d8766feff9ce, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Users\Josh\Documents\Visual Studio 2008\Controls\obout Suite for ASP.NET 3.5 and up\obout_Calendar2_Net.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_FileUpload, Version=1.10.806.1, Culture=neutral, PublicKeyToken=c8b4009f4d53d5e5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Users\Josh\Documents\Visual Studio 2008\Controls\obout Suite for ASP.NET 3.5 and up\obout_FileUpload.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Flyout2_NET, Version=2.0.6.0, Culture=neutral, PublicKeyToken=d6418bad3a294aff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Users\Josh\Documents\Visual Studio 2008\Controls\obout Suite for ASP.NET 3.5 and up\obout_Flyout2_NET.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Grid_NET, Version=7.0.5.0, Culture=neutral, PublicKeyToken=5ddc49d3b53e3f98, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Users\Josh\Documents\Visual Studio 2008\Controls\obout Suite for ASP.NET 3.5 and up\obout_Grid_NET.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Interface, Version=4.0.9.0, Culture=neutral, PublicKeyToken=d5dff6913a9d6649, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Users\Josh\Documents\Visual Studio 2008\Controls\obout Suite for ASP.NET 3.5 and up\obout_Interface.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\budgeteer.css" />
+    <Content Include="Images\budgeteerLogo.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GeneralMasterPage.Master.designer.vb">
+      <DependentUpon>GeneralMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralMasterPage.Master.vb">
+      <DependentUpon>GeneralMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\UserAccount\ChangeEmail.aspx.designer.vb">
+      <DependentUpon>ChangeEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\UserAccount\ChangeEmail.aspx.vb">
+      <DependentUpon>ChangeEmail.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\UserAccount\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\UserAccount\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\UserAccount\Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\UserAccount\Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Support\Recovery.aspx.designer.vb">
+      <DependentUpon>Recovery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Support\Recovery.aspx.vb">
+      <DependentUpon>Recovery.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Support\PasswordRecovery.aspx.designer.vb">
+      <DependentUpon>PasswordRecovery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Support\PasswordRecovery.aspx.vb">
+      <DependentUpon>PasswordRecovery.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Support\UserNameRecovery.aspx.designer.vb">
+      <DependentUpon>UserNameRecovery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Support\UserNameRecovery.aspx.vb">
+      <DependentUpon>UserNameRecovery.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Registration\Confirmation.aspx.designer.vb">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\Confirmation.aspx.vb">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Paginator.ascx.designer.vb">
+      <DependentUpon>Paginator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Paginator.ascx.vb">
+      <DependentUpon>Paginator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProgressBar.ascx.designer.vb">
+      <DependentUpon>ProgressBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProgressBar.ascx.vb">
+      <DependentUpon>ProgressBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\BankAccounts\Edit.aspx.designer.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\BankAccounts\Edit.aspx.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\BankAccounts\Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\BankAccounts\Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\BankAccounts\New.aspx.designer.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\BankAccounts\New.aspx.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Categories\Edit.aspx.designer.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Categories\Edit.aspx.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Categories\Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Categories\Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Categories\New.aspx.designer.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Categories\New.aspx.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Budgets\Edit.aspx.designer.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Budgets\Edit.aspx.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Budgets\Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Budgets\Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Budgets\New.aspx.designer.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Budgets\New.aspx.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Subcategories\Edit.aspx.designer.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Subcategories\Edit.aspx.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Subcategories\New.aspx.designer.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Subcategories\New.aspx.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\MasterPage.Master.designer.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\MasterPage.Master.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Edit.aspx.designer.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Edit.aspx.vb">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\New.aspx.designer.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\Transactions\New.aspx.vb">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Registration\AccountRegistration.aspx.designer.vb">
+      <DependentUpon>AccountRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\AccountRegistration.aspx.vb">
+      <DependentUpon>AccountRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Service References\BudgeteerService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\UnauthenticatedService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Support\FAQ.aspx.designer.vb">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Support\FAQ.aspx.vb">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Images\adBankAccountsSS.png" />
+    <Content Include="Images\adBankAccountsText.png" />
+    <Content Include="Images\adBudgetsSS.png" />
+    <Content Include="Images\adBudgetsText.png" />
+    <Content Include="Images\adCategoriesSS.png" />
+    <Content Include="Images\adCategoriesText.png" />
+    <Content Include="Images\adTransactionsSS.png" />
+    <Content Include="Images\adTransactionsText.png" />
+    <Content Include="Images\down.gif" />
+    <Content Include="Images\right.gif" />
+    <Content Include="Images\shadow_bottom.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="MemberPages\UserAccount\ChangeEmail.aspx" />
+    <Content Include="MemberPages\UserAccount\ChangePassword.aspx" />
+    <Content Include="MemberPages\UserAccount\EmailChangeEmailTemplate.html" />
+    <Content Include="MemberPages\UserAccount\EmailChangeEmailTemplate.txt" />
+    <Content Include="MemberPages\UserAccount\Index.aspx" />
+    <None Include="Service References\BudgeteerService\Budgeteer1.disco" />
+    <Content Include="Support\Recovery.aspx" />
+    <Content Include="Support\PasswordRecovery.aspx" />
+    <Content Include="Support\UserNameRecovery.aspx" />
+    <Content Include="Support\UserNameRecoveryEmailTemplate.txt" />
+    <Content Include="Support\UserNameRecoveryEmailTemplate.html" />
+    <Content Include="Scripts\ddsmoothmenu.js" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Registration\Confirmation.aspx" />
+    <Content Include="Controls\Paginator.ascx" />
+    <Content Include="Controls\ProgressBar.ascx" />
+    <Content Include="Images\calendar.png" />
+    <Content Include="Images\clear.png" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\page_first.png" />
+    <Content Include="Images\page_last.png" />
+    <Content Include="Images\page_next.png" />
+    <Content Include="Images\page_previous.png" />
+    <Content Include="Images\pencil.png" />
+    <Content Include="Images\ProgressBarHighlight.png" />
+    <Content Include="MemberPages\BankAccounts\Edit.aspx" />
+    <Content Include="MemberPages\BankAccounts\Index.aspx" />
+    <Content Include="MemberPages\BankAccounts\New.aspx" />
+    <Content Include="MemberPages\Transactions\Categories\Edit.aspx" />
+    <Content Include="MemberPages\Transactions\Categories\Index.aspx" />
+    <Content Include="MemberPages\Transactions\Categories\New.aspx" />
+    <Content Include="MemberPages\Budgets\Edit.aspx" />
+    <Content Include="MemberPages\Budgets\Index.aspx" />
+    <Content Include="MemberPages\Budgets\New.aspx" />
+    <Content Include="MemberPages\Transactions\Subcategories\Edit.aspx" />
+    <Content Include="MemberPages\Transactions\Subcategories\New.aspx" />
+    <Content Include="MemberPages\MasterPage.Master" />
+    <Content Include="MemberPages\Transactions\Edit.aspx" />
+    <Content Include="MemberPages\Transactions\Index.aspx" />
+    <Content Include="MemberPages\Transactions\New.aspx" />
+    <Content Include="Registration\AccountRegistration.aspx" />
+    <Content Include="Registration\RegistrationEmailTemplate.html" />
+    <Content Include="Registration\RegistrationEmailTemplate.txt" />
+    <Content Include="GeneralMasterPage.Master" />
+    <Content Include="Support\FAQ.aspx" />
+    <None Include="Service References\BudgeteerService\Budgeteer1.wsdl" />
+    <None Include="Service References\BudgeteerService\Budgeteer4.xsd" />
+    <None Include="Service References\BudgeteerService\Budgeteer5.xsd" />
+    <None Include="Service References\BudgeteerService\Budgeteer6.xsd" />
+    <None Include="Service References\BudgeteerService\Budgeteer7.xsd" />
+    <None Include="Service References\UnauthenticatedService\BudgeteerWeb.UnauthenticatedService.SecurityQuestion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UnauthenticatedService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\UnauthenticatedService\configuration.svcinfo" />
+    <None Include="Service References\UnauthenticatedService\configuration91.svcinfo" />
+    <None Include="Service References\UnauthenticatedService\BudgeteerUnauthenticatedServices.disco" />
+    <None Include="Service References\BudgeteerService\BudgeteerWeb.BudgeteerService.ApplicationSetting.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BudgeteerService\BudgeteerWeb.BudgeteerService.BankAccount.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BudgeteerService\BudgeteerWeb.BudgeteerService.Budget.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BudgeteerService\BudgeteerWeb.BudgeteerService.Category.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BudgeteerService\BudgeteerWeb.BudgeteerService.Paginator.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BudgeteerService\BudgeteerWeb.BudgeteerService.Subcategory.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BudgeteerService\BudgeteerWeb.BudgeteerService.Transaction.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BudgeteerService\BudgeteerWeb.BudgeteerService.User.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BudgeteerService\BudgeteerWeb.BudgeteerService.UtilizedDollars.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BudgeteerService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\BudgeteerService\configuration.svcinfo" />
+    <None Include="Service References\BudgeteerService\configuration91.svcinfo" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\UnauthenticatedService\BudgeteerUnauthenticatedServices.wsdl" />
+    <None Include="Service References\UnauthenticatedService\BudgeteerUnauthenticatedServices.xsd" />
+    <None Include="Service References\UnauthenticatedService\BudgeteerUnauthenticatedServices1.xsd" />
+    <None Include="Service References\UnauthenticatedService\BudgeteerUnauthenticatedServices2.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BudgeteerService\" />
+    <WCFMetadataStorage Include="Service References\UnauthenticatedService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1361</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/Budgeteer</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

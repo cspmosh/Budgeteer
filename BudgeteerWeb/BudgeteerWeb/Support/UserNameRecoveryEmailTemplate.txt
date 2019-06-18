@@ -1,0 +1,7 @@
+Dear Budgeteer user, 
+
+Here is your email reminder for your Budgeteer User Name. Please keep this email for future reference.
+
+Your User Name is: {USERNAME}
+
+

@@ -1,0 +1,17 @@
+C:\Develop\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.dll
+C:\Develop\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.pdb
+C:\Develop\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.xml
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.Resources.resources
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.vbproj.GenerateResource.Cache
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.dll
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.xml
+C:\Develop\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.pdb
+E:\Development\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.dll
+E:\Development\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.pdb
+E:\Development\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.xml
+E:\Development\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.Resources.resources
+E:\Development\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.vbproj.GenerateResource.Cache
+E:\Development\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.dll
+E:\Development\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.xml
+E:\Development\Budgeteer\BudgeteerObjects\obj\Release\BudgeteerObjects.pdb

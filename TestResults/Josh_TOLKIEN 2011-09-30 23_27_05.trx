@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c90cb231-1b96-476c-857d-ffea5f8b7f70" name="Josh@TOLKIEN 2011-09-30 23:27:05" runUser="Tolkien\Josh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="8ba3157e-c793-4762-8e20-abcfc481c21a">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Develop\Budgeteer\TestResults\Josh_TOLKIEN 2011-09-30 23_27_05">
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerBusiness\bin\Debug\BudgeteerBusiness.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerDAL\bin\Debug\BudgeteerDAL.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerObjects\bin\Debug\BudgeteerObjects.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-09-30T23:27:05.0058308-04:00" queuing="2011-09-30T23:27:07.8679945-04:00" start="2011-09-30T23:27:08.1490106-04:00" finish="2011-09-30T23:27:09.1950704-04:00" />
+  <TestDefinitions>
+    <UnitTest name="addUserTest" storage="c:\develop\budgeteer\budgeteerbusiness.test\bin\debug\budgeteerbusiness.test.dll" id="302f161c-1a16-7195-636f-727c6d4f7cce">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3846a3a5-a73b-4b8c-bde4-df29f6176a0e" />
+      <TestMethod codeBase="C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Debug\BudgeteerBusiness.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BudgeteerBusiness.Test.UserTest, BudgeteerBusiness.Test" name="addUserTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="302f161c-1a16-7195-636f-727c6d4f7cce" executionId="3846a3a5-a73b-4b8c-bde4-df29f6176a0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3846a3a5-a73b-4b8c-bde4-df29f6176a0e" testId="302f161c-1a16-7195-636f-727c6d4f7cce" testName="addUserTest" computerName="TOLKIEN" duration="00:00:00.2285257" startTime="2011-09-30T23:27:08.2320154-04:00" endTime="2011-09-30T23:27:09.0520623-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BudgeteerBusiness.Test.UserTest.addUserTest threw exception:  System.ArgumentException: User Name is already in use. Please choose another User Name..</Message>
+          <StackTrace>    at BudgeteerBusiness.User.addUser(User user) in C:\Develop\Budgeteer\BudgeteerBusiness\User.vb:line 129
+   at BudgeteerBusiness.Test.UserTest.addUserTest() in C:\Develop\Budgeteer\BudgeteerBusiness.Test\UserTest.vb:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

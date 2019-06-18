@@ -1,0 +1,58 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="GeneralMasterPage.master.vb" Inherits="BudgeteerWeb.GeneralMasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+		<title>Budgeteer</title>
+	    <script type="text/javascript">
+	        LogoImage = new Image(1, 1);
+	        LogoImage.src = "/Images/budgeteerLogo.png";        
+        </script>
+        <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+        <link href="/CSS/budgeteer.css" rel="stylesheet" type="text/css" /> 
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/Scripts/ddsmoothmenu.js">
+		    /***********************************************
+		    * Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+		    * This notice MUST stay intact for legal use
+		    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+		    ***********************************************/
+		</script>
+		<script type="text/javascript">
+		    ddsmoothmenu.init({
+		        mainmenuid: "smoothmenu", //menu DIV id
+		        orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+		        classname: 'ddsmoothmenu', //class added to menu's outer DIV			
+		        contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+		    })
+		</script>
+	</head>
+	<body>	
+		<div id="masterHeaderContainer">
+			<div id="masterHeader">
+				<div style="float: left; width: 324px; border: 0px solid #000;"><img src="/Images/budgeteerLogo.png" alt="logo" style="padding-left:10px; padding-top: 10px;"/></div>
+				<div id="masterHeaderMessageContainer"><asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label></div>
+				<div id="masterTabContainer"><div id="generalTab"><div id="masterTabFiller">&nbsp; <a href="/Login.aspx">Log In</a></div></div></div>
+			</div>
+		</div>
+		<div id="masterNavigationContainer">
+			<div id="masterNavigation">			
+				<div id="smoothmenu" class="ddsmoothmenu" style="clear: both; margin-left: 10px; ">
+					<ul>
+						<li><a href="/index.aspx">Home</a></li>
+						<li><a href="/aboutUs.aspx">About Us</a></li>	
+						<li><a href="/support/FAQ.aspx">FAQ</a></li>		
+						<li><a href="/Registration/AccountRegistration.aspx">Sign Up</a></li>												
+					</ul>
+					<br style="clear: left" />
+				</div>					
+			</div>
+		</div>		
+		<div id="masterContentContainer">
+			<div id="masterBreadcrumbs"><asp:ContentPlaceHolder ID="breadcrumbs" runat="server"></asp:ContentPlaceHolder></div><br/>
+			<div id="masterPageTitle"><asp:ContentPlaceHolder ID="pageTitle" runat="server"></asp:ContentPlaceHolder></div><br />	
+			<div id="masterContent"><asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server"></asp:ContentPlaceHolder></div>
+		</div>	
+		<div style="margin: auto; width: 1024px;"><img src="/Images/shadow_bottom.png" alt="" /></div>
+	</body>
+</html>

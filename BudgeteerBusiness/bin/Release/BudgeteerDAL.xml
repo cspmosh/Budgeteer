@@ -1,0 +1,324 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BudgeteerDAL
+</name>
+</assembly>
+<members>
+<member name="P:BudgeteerDAL.DbHelper.ConnectionString">
+	<summary>
+ Get or Sets the Connection String
+ </summary>
+	<value></value>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.GetFactoryByProvider(BudgeteerDAL.Providers)">
+	<summary>
+ Get Factory By Provider
+ </summary>
+	<param name="oGetFactory"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.GetProviderFactory">
+	<summary>
+ Returns a DbProviderFactory based on the private _factory member
+ </summary>
+	<returns>A DbProviderFactory object specific to the data provider specified internally in this class
+ </returns>
+</member><member name="M:BudgeteerDAL.DbHelper.CreateParameter(System.String,System.Data.DbType,System.Object)">
+	<summary>
+ Creates a new instance of a System.Data.Commom.dbParameter object.
+ </summary>
+	<param name="name"></param>
+	<param name="type"></param>
+	<param name="value"></param>
+	<returns>A System.Data.Commom.dbParameter object</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.CreateParameter(System.String,System.Data.DbType,System.Object,System.Data.ParameterDirection)">
+	<summary>
+ Creates a new instance of a System.Data.Commom.dbParameter object.
+ </summary>
+	<param name="name"></param>
+	<param name="type"></param>
+	<param name="value"></param>
+	<param name="direction"></param>
+	<returns>A System.Data.Commom.dbParameter object</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.CreateParameter(System.String,System.Data.DbType,System.Object,BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ Creates a new instance of a System.Data.Commom.dbParameter object.
+ </summary>
+	<param name="name"></param>
+	<param name="type"></param>
+	<param name="value"></param>
+	<returns>A System.Data.Commom.dbParameter object</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.CreateParameter(System.String,System.Data.DbType,System.Object,System.Data.ParameterDirection,BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ Creates a new instance of a System.Data.Commom.dbParameter object.
+ </summary>
+	<param name="name"></param>
+	<param name="type"></param>
+	<param name="value"></param>
+	<param name="direction"></param>
+	<returns>A System.Data.Commom.dbParameter object</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteNonQuery(System.Data.CommandType,System.String)">
+	<summary>
+ Executes a Transact-SQL statement against the connection and returns the number of rows affected.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<returns></returns>
+	<remarks>The number of rows affected.</remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteNonQuery(System.Data.CommandType,System.String,System.Data.Common.DbParameter[])">
+	<summary>
+ Executes a Transact-SQL statement against the connection and returns the number of rows affected.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<param name="cmdParms">Set Array of Parameter</param>
+	<returns>The number of rows affected.</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteNonQuery(System.Data.CommandType,System.String,BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ Executes a Transact-SQL statement against the connection and returns the number of rows affected.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns></returns>
+	<remarks>The number of rows affected.</remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteNonQuery(System.Data.CommandType,System.String,System.Data.Common.DbParameter[],BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ Executes a Transact-SQL statement against the connection and returns the number of rows affected.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<param name="cmdParms">Set Array of Parameter</param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns>The number of rows affected.</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteScalar(System.Data.CommandType,System.String)">
+	<summary>
+ Executes the query, and returns the first column of the first row in the result set returned by the query.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<returns></returns>
+	<remarks>The first column of the first row in the result set, or a null reference if the result set is empty.</remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteScalar(System.Data.CommandType,System.String,System.Data.Common.DbParameter[])">
+	<summary>
+ Executes the query, and returns the first column of the first row in the result set returned by the query.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<param name="cmdParms">Set Array of Parameter</param>
+	<returns></returns>
+	<remarks>The first column of the first row in the result set, or a null reference if the result set is empty.</remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteScalar(System.Data.CommandType,System.String,BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ Executes the query, and returns the first column of the first row in the result set returned by the query.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns></returns>
+	<remarks>The first column of the first row in the result set, or a null reference if the result set is empty.</remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteScalar(System.Data.CommandType,System.String,System.Data.Common.DbParameter[],BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ Executes the query, and returns the first column of the first row in the result set returned by the query.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<param name="cmdParms">Set Array of Parameter</param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns></returns>
+	<remarks>The first column of the first row in the result set, or a null reference if the result set is empty.</remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteTable(System.Data.CommandType,System.String)">
+	<summary>
+ ExecuteTable Return DataTable
+ </summary>
+	<param name="cmdType">The command Type</param>
+	<param name="cmdText">The command text to execute</param>
+	<returns>DataTable</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteTable(System.Data.CommandType,System.String,System.Data.Common.DbParameter[])">
+	<summary>
+ ExecuteTable Return DataTable
+ </summary>
+	<param name="cmdType">The command Type</param>
+	<param name="cmdText">The command text to execute</param>
+	<param name="cmdParms">Array of Parameters</param>
+	<returns>DataTable</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteTable(System.Data.CommandType,System.String,BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ ExecuteTable Return DataTable
+ </summary>
+	<param name="cmdType">The command Type</param>
+	<param name="cmdText">The command text to execute</param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns>DataTable</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteTable(System.Data.CommandType,System.String,System.Data.Common.DbParameter[],BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ ExecuteTable Return DataTable
+ </summary>
+	<param name="cmdType">The command Type</param>
+	<param name="cmdText">The command text to execute</param>
+	<param name="cmdParms">Array of Parameters</param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns>DataTable</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteDataSet(System.Data.CommandType,System.String)">
+	<summary>
+		<para>Executes the <paramref name="commandText"/> as part of the given <paramref name="transaction"/> and returns the results in a new <see cref="T:System.Data.DataSet"/>.</para>
+	</summary>
+	<param name="cmdType"></param>
+	<param name="cmdText">The command text to execute.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteDataSet(System.Data.CommandType,System.String,System.Data.Common.DbParameter[])">
+	<summary>
+		<para>Executes the <paramref name="commandText"/> as part of the given <paramref name="transaction"/> and returns the results in a new <see cref="T:System.Data.DataSet"/>.</para>
+	</summary>
+	<param name="cmdType">One of the <see cref="T:System.Data.CommandType"/> values.</param>
+	<param name="cmdText">The command text to execute.</param>
+	<param name="cmdParms"></param>
+	<returns>DataSet</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteDataSet(System.Data.CommandType,System.String,BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+		<para>Executes the <paramref name="commandText"/> as part of the given <paramref name="transaction"/> and returns the results in a new <see cref="T:System.Data.DataSet"/>.</para>
+	</summary>
+	<param name="cmdType"></param>
+	<param name="cmdText">The command text to execute.</param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteDataSet(System.Data.CommandType,System.String,System.Data.Common.DbParameter[],BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+		<para>Executes the <paramref name="commandText"/> as part of the given <paramref name="transaction"/> and returns the results in a new <see cref="T:System.Data.DataSet"/>.</para>
+	</summary>
+	<param name="cmdType">One of the <see cref="T:System.Data.CommandType"/> values.</param>
+	<param name="cmdText">The command text to execute.</param>
+	<param name="cmdParms"></param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns>DataSet</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteReader(System.Data.Common.DbConnection@,System.Data.CommandType,System.String)">
+	<summary>
+ Sends the System.Data.Common.DbCommand.CommandText to the System.Data.Common.DbCommand.Connection and builds a System.Data.Common.DbDataReader.
+ </summary>
+	<param name="conn">A System.Data.Common.DbConnection that represents the connection to an instance of DataSource.</param>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<returns>A System.Data.Common.DbDataReader object.</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteReader(System.Data.Common.DbConnection@,System.Data.CommandType,System.String,System.Data.Common.DbParameter[])">
+	<summary>
+ Sends the System.Data.Common.DbCommand.CommandText to the System.Data.Common.DbCommand.Connection and builds a System.Data.Common.DbDataReader.
+ </summary>
+	<param name="conn">A System.Data.Common.DbConnection that represents the connection to an instance of DataSource.</param>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<param name="cmdParms">Set Array of Parameter</param>
+	<returns>A System.Data.Common.DbDataReader object.</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteReader(System.Data.CommandType,System.String,BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ Sends the System.Data.Common.DbCommand.CommandText to the System.Data.Common.DbCommand.Connection and builds a System.Data.Common.DbDataReader.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns>A System.Data.Common.DbDataReader object.</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteReader(System.Data.CommandType,System.String,System.Data.Common.DbParameter[],BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ Sends the System.Data.Common.DbCommand.CommandText to the System.Data.Common.DbCommand.Connection and builds a System.Data.Common.DbDataReader.
+ </summary>
+	<param name="cmdType">Set the Transact-SQL statement or stored procedure to execute at the data source.</param>
+	<param name="cmdText">The text of the query.</param>
+	<param name="cmdParms">Set Array of Parameter</param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns>A System.Data.Common.DbDataReader object.</returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteRow(System.Data.CommandType,System.String)">
+	<summary>
+	</summary>
+	<param name="cmdType"></param>
+	<param name="cmdText"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteRow(System.Data.CommandType,System.String,System.Data.Common.DbParameter[])">
+	<summary>
+	</summary>
+	<param name="cmdType"></param>
+	<param name="cmdText"></param>
+	<param name="cmdParms"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteRow(System.Data.CommandType,System.String,BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+	</summary>
+	<param name="cmdType"></param>
+	<param name="cmdText"></param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExecuteRow(System.Data.CommandType,System.String,System.Data.Common.DbParameter[],BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+	</summary>
+	<param name="cmdType"></param>
+	<param name="cmdText"></param>
+	<param name="cmdParms"></param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExcuteAdapter(System.Data.DataTable,System.String,System.Int64@)">
+	<summary>
+ Excute Adapter
+ </summary>
+	<param name="oTable"></param>
+	<param name="cmdText"></param>
+	<param name="lngMaxID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.ExcuteAdapter(System.Data.DataTable,System.String,BudgeteerDAL.DistributedTransaction@)">
+	<summary>
+ Excute Adapter
+ </summary>
+	<param name="oTable"></param>
+	<param name="cmdText"></param>
+	<param name="transaction">An instantiated distributed transaction</param>
+	<remarks></remarks>
+</member><member name="M:BudgeteerDAL.DbHelper.PrepareCommand(System.Data.Common.DbCommand@,System.Data.Common.DbConnection@,System.Data.CommandType@,System.String@,System.Data.Common.DbParameter[]@)">
+	<summary>
+ Prepare Command
+ </summary>
+	<param name="cmd">Assigns a <paramref name="connection"/> to the <paramref name="command"/> and discovers parameters if needed.</param>
+	<param name="conn">The connection to assign to the command.</param>
+	<param name="cmdType">The command that contains the query to prepare.</param>
+	<param name="cmdText"></param>
+	<param name="cmdParms"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BudgeteerDAL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BudgeteerDAL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:BudgeteerDAL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

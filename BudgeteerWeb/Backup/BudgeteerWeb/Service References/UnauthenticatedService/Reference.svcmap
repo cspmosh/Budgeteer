@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="554d0b9b-0914-499e-ae94-0e894882cb2c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+      <CollectionMapping TypeName="System.Collections.Generic.SortedList`2" Category="Dictionary" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/BudgeteerUnauthenticatedServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BudgeteerUnauthenticatedServices.disco" MetadataType="Disco" ID="91095e90-d98b-4913-94ea-fe58f2ca9fcc" SourceId="1" SourceUrl="http://tolkien:8000/BudgeteerUnauthenticatedServices.svc?disco" />
+    <MetadataFile FileName="BudgeteerUnauthenticatedServices.wsdl" MetadataType="Wsdl" ID="a00e4948-6978-490c-8268-b0fa9ad0e0c3" SourceId="1" SourceUrl="http://tolkien:8000/BudgeteerUnauthenticatedServices.svc?wsdl" />
+    <MetadataFile FileName="BudgeteerUnauthenticatedServices.xsd" MetadataType="Schema" ID="342e82d2-8b92-4824-90af-d6c86a4fafde" SourceId="1" SourceUrl="http://tolkien:8000/BudgeteerUnauthenticatedServices.svc?xsd=xsd1" />
+    <MetadataFile FileName="BudgeteerUnauthenticatedServices1.xsd" MetadataType="Schema" ID="3a273d62-2383-4d6d-8d5a-b0c56d014e2d" SourceId="1" SourceUrl="http://tolkien:8000/BudgeteerUnauthenticatedServices.svc?xsd=xsd0" />
+    <MetadataFile FileName="BudgeteerUnauthenticatedServices2.xsd" MetadataType="Schema" ID="87bb2c3e-e006-4904-bc2c-bdcf1c3bd71d" SourceId="1" SourceUrl="http://tolkien:8000/BudgeteerUnauthenticatedServices.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

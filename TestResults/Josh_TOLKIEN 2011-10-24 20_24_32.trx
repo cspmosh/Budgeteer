@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="27300544-98a2-4144-b32f-40f302d4eabc" name="Josh@TOLKIEN 2011-10-24 20:24:32" runUser="Tolkien\Josh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="8ba3157e-c793-4762-8e20-abcfc481c21a">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Develop\Budgeteer\TestResults\Josh_TOLKIEN 2011-10-24 20_24_32">
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerDAL\bin\Release\BudgeteerDAL.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerBusiness\bin\Release\BudgeteerBusiness.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-10-24T20:24:32.3708090-04:00" queuing="2011-10-24T20:24:35.7480022-04:00" start="2011-10-24T20:24:36.0090171-04:00" finish="2011-10-24T20:25:45.3349823-04:00" />
+  <TestDefinitions>
+    <UnitTest name="CopyBudgetsTest" storage="c:\develop\budgeteer\budgeteerbusiness.test\bin\release\budgeteerbusiness.test.dll" id="545be745-690b-b8b1-c441-8e869608b177">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="baf17ec7-9943-4247-92d2-261ca1b45517" />
+      <TestMethod codeBase="C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Release\BudgeteerBusiness.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BudgeteerBusiness.Test.BudgetTest, BudgeteerBusiness.Test" name="CopyBudgetsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="545be745-690b-b8b1-c441-8e869608b177" executionId="baf17ec7-9943-4247-92d2-261ca1b45517" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="baf17ec7-9943-4247-92d2-261ca1b45517" testId="545be745-690b-b8b1-c441-8e869608b177" testName="CopyBudgetsTest" computerName="TOLKIEN" duration="00:01:08.4896191" startTime="2011-10-24T20:24:36.1450249-04:00" endTime="2011-10-24T20:25:45.2519776-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at BudgeteerBusiness.Test.BudgetTest.CopyBudgetsTest() in C:\Develop\Budgeteer\BudgeteerBusiness.Test\BudgetTest.vb:line 349
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

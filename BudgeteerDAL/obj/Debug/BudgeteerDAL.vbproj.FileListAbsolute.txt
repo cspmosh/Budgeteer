@@ -1,0 +1,12 @@
+C:\Develop\Budgeteer\BudgeteerDAL\bin\Debug\BudgeteerDAL.dll
+C:\Develop\Budgeteer\BudgeteerDAL\bin\Debug\BudgeteerDAL.pdb
+C:\Develop\Budgeteer\BudgeteerDAL\bin\Debug\BudgeteerDAL.xml
+C:\Develop\Budgeteer\BudgeteerDAL\bin\Debug\BudgeteerObjects.dll
+C:\Develop\Budgeteer\BudgeteerDAL\bin\Debug\BudgeteerObjects.pdb
+C:\Develop\Budgeteer\BudgeteerDAL\bin\Debug\BudgeteerObjects.xml
+C:\Develop\Budgeteer\BudgeteerDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Develop\Budgeteer\BudgeteerDAL\obj\Debug\BudgeteerDAL.Resources.resources
+C:\Develop\Budgeteer\BudgeteerDAL\obj\Debug\BudgeteerDAL.vbproj.GenerateResource.Cache
+C:\Develop\Budgeteer\BudgeteerDAL\obj\Debug\BudgeteerDAL.dll
+C:\Develop\Budgeteer\BudgeteerDAL\obj\Debug\BudgeteerDAL.xml
+C:\Develop\Budgeteer\BudgeteerDAL\obj\Debug\BudgeteerDAL.pdb

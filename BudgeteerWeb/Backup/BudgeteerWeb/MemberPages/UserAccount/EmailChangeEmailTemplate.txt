@@ -1,0 +1,5 @@
+﻿Dear Budgeteer user, 
+
+Your account email address has been changed to the following email address: {NEWEMAIL} 
+
+You will no longer receive emails from Budgeteer at this address. If you believe you have received this email by mistake or have questions or concerns you can email us at {BUDGETEEREMAIL}.

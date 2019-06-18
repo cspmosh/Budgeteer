@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c6a0568a-d716-4216-ab63-bab981d9c359" name="Josh@TOLKIEN 2011-10-23 23:02:40" runUser="Tolkien\Josh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="8ba3157e-c793-4762-8e20-abcfc481c21a">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Develop\Budgeteer\TestResults\Josh_TOLKIEN 2011-10-23 23_02_40">
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerDAL\bin\Release\BudgeteerDAL.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerBusiness\bin\Release\BudgeteerBusiness.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TOLKIEN" outcome="Error" timestamp="2011-10-23T23:04:11.3508980-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2011-10-23T23:02:40.0436755-04:00" queuing="2011-10-23T23:02:51.3083198-04:00" start="2011-10-23T23:02:51.6853414-04:00" finish="2011-10-23T23:04:11.3608986-04:00" />
+  <TestDefinitions>
+    <UnitTest name="GetUtilizedDollarsByDateTest" storage="c:\develop\budgeteer\budgeteerbusiness.test\bin\release\budgeteerbusiness.test.dll" id="d188c60f-453a-8777-2c99-0dcd4ad79808">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Release\BudgeteerBusiness.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BudgeteerBusiness.Test.BudgetTest, BudgeteerBusiness.Test" name="GetUtilizedDollarsByDateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d188c60f-453a-8777-2c99-0dcd4ad79808" executionId="477ed71f-3d4b-429e-86c6-6db8124e576e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="477ed71f-3d4b-429e-86c6-6db8124e576e" testId="d188c60f-453a-8777-2c99-0dcd4ad79808" testName="GetUtilizedDollarsByDateTest" computerName="TOLKIEN" duration="00:01:19.5225485" startTime="2011-10-23T23:02:51.8383501-04:00" endTime="2011-10-23T23:04:11.3608986-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

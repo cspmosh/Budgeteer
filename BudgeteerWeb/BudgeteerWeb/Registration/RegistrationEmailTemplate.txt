@@ -1,0 +1,6 @@
+{FIRSTNAME}, 
+
+Thank you for registering for a Budgeteer account! You won't regret it. Hopefully. That is my hope... Anyway, To complete your registration please paste the URL below into an internet browser: 
+
+{SITEPATH}?UserName={USERNAME}&Email={EMAIL}&Confirmation={KEY} 
+

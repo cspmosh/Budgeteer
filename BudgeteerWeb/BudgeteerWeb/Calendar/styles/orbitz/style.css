@@ -1,0 +1,429 @@
+.calendarCalendar {
+	border: 1px solid #77BBFF;
+	background-color: #CCEEFF;
+}
+.calendarTitle {
+	font: 13px bold Arial;
+	color: #333333;
+	text-align: center;
+	font-weight: bolder;
+	background-color: #99BBFF;
+	padding-top:4px;
+	padding-bottom:4px;
+	text-transform: uppercase;
+}
+.calendarArrowLeft {
+	font:1px Tahoma;
+	cursor:pointer; cursor:hand;
+	background-image: url('left.gif');
+	background-repeat: no-repeat;
+	background-position:center center;
+	height: 22px;
+	width: 20px;
+}
+.calendarArrowRight{
+	font:1px Tahoma;
+	cursor:pointer; cursor:hand;
+	background-image: url('right.gif');
+	background-repeat: no-repeat;
+	background-position:center center;
+	height: 22px;
+	width: 20px;
+}
+
+.calendarMonth {
+	background-color: White;	
+}
+.calendarMonthTitle {
+	font: bold 12px Arial;
+	text-align:center;
+	background-color: #AADDFF;
+	height: 16px;
+	text-transform: uppercase;
+	color: Black;
+}
+.calendarDayName {
+	font:bold 10px Arial;
+	letter-spacing: 1.1;
+	color: Gray;
+	text-align:center;
+	padding:2px;
+	text-transform: uppercase;
+}
+.calendarDay {
+	font: 11px Arial;
+	color:#2266cc;
+	text-align:center;
+	text-decoration:underline;
+	border:1px solid #FFFFFF;
+	cursor:pointer; cursor:hand;
+}
+.calendarDayOver {
+	font: 11px Arial;
+	color:#2266cc;
+	text-align:center;
+	text-decoration:none;
+	border:1px solid #1177FF;
+	cursor:pointer; cursor:hand;
+}
+.calendarDayToday {
+	font: bold 11px Arial;
+	color: #1177FF;
+	text-align:center;
+	cursor:pointer; cursor:hand;
+	border:1px solid #1177FF;
+	background-color: #CCEEFF;
+}
+.calendarDayTodayOver {
+	font: bold 11px Arial;
+	color: #1177FF;
+	text-align:center;
+	cursor:pointer; cursor:hand;
+	border:1px solid #1177FF;
+	background-color: #CCEEFF;
+}
+.calendarDayDisabled {
+	font: 11px Arial;
+	color:#999999;
+	text-align:center;
+	border:1px solid #FFFFFF;
+}
+.calendarDayDisabledOver {
+	font: 11px Arial;
+	color:#999999;
+	text-align:center;
+	border:1px solid #FFFFFF;
+}
+.calendarDaySelected {
+	font: bold 11px Arial;
+	color: #CCEEFF;
+	text-align: center;
+	background-color:#77AAFF;
+	cursor:hand; cursor:pointer;
+	border:1px solid #CCEEFF;
+}
+.calendarDaySelectedOver {
+	font: bold 11px Arial;
+	color: #CCEEFF;
+	text-align: center;
+	background-color:#77AAFF;
+	cursor:hand; cursor:pointer;
+	border:1px solid #CCEEFF;
+}
+.calendarDaySpecial {
+	font:bold 11px Arial;
+	color:#004499;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+	border:1px solid #D0F0FF;
+}
+.calendarDaySpecialOver {
+	font:bold 11px Arial;
+	color:#004499;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+	border:1px solid #D0F0FF;
+}
+.calendarDatePickerButton {
+	vertical-align:bottom;
+	cursor:pointer; cursor:hand;
+}
+
+/******************/
+/* year selector */
+.calendarYearSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarYearSelectorContainer
+{
+	border:1px solid #77BBFF;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#CCEEFF;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarYearSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarYearSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarYearSelected
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	text-align:center;
+	background-color:#000000;
+	color:#ffffff;
+}
+.calendarYearSelector
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+/* year selector */
+/******************/
+
+/******************/
+/* month selector */
+.calendarMonthSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarMonthSelectorContainer
+{
+	border:1px solid #77BBFF;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#CCEEFF;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarMonthSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMonthSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMonthSelected
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	text-align:center;
+	background-color:#000000;
+	color:#ffffff;
+}
+.calendarMonthSelector
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+/* month selector */
+/******************/
+
+/******************/
+/* hour selector */
+.calendarHourSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarHourSelectorContainer
+{
+	border:1px solid #77BBFF;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#CCEEFF;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarHourSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarHourSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarHourSelected
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	text-align:center;
+	background-color:#000000;
+	color:#ffffff;
+}
+.calendarHourSelector
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+/* hour selector */
+/******************/
+
+/******************/
+/* minute selector */
+.calendarMinuteSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarMinuteSelectorContainer
+{
+	border:1px solid #77BBFF;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#CCEEFF;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarMinuteSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMinuteSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMinuteSelected
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	text-align:center;
+	background-color:#000000;
+	color:#ffffff;
+}
+.calendarMinuteSelector
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+/* minute selector */
+/******************/
+
+/******************/
+/* second selector */
+.calendarSecondSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarSecondSelectorContainer
+{
+	border:1px solid #77BBFF;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:#CCEEFF;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+.calendarSecondSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarSecondSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarSecondSelected
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	text-align:center;
+	background-color:#000000;
+	color:#ffffff;
+}
+.calendarSecondSelector
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	color:#000000;
+	text-align:center;
+}
+/* second selector */
+/******************/
+
+.calendarSelectTime
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	color:#000000;
+	padding:5px;
+	text-decoration:none;
+	text-align:center;
+}
+.calendarSelectTime:hover
+{
+	cursor:pointer;
+	font:bold 12px Arial;
+	color:#003265;
+	padding:5px;
+	text-decoration:none;
+	text-align:center;
+}

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3e678820-7672-4b17-9b0f-ea53371e8a6d" name="Josh@TOLKIEN 2011-10-24 20:03:56" runUser="Tolkien\Josh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="8ba3157e-c793-4762-8e20-abcfc481c21a">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Develop\Budgeteer\TestResults\Josh_TOLKIEN 2011-10-24 20_03_56">
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerObjects\bin\Release\BudgeteerObjects.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerDAL\bin\Release\BudgeteerDAL.dll" />
+      <DeploymentItem filename="C:\Develop\Budgeteer\BudgeteerBusiness\bin\Release\BudgeteerBusiness.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-10-24T20:03:56.8861433-04:00" queuing="2011-10-24T20:04:02.4114594-04:00" start="2011-10-24T20:04:02.7274774-04:00" finish="2011-10-24T20:07:27.3621819-04:00" />
+  <TestDefinitions>
+    <UnitTest name="CopyBudgetsTest" storage="c:\develop\budgeteer\budgeteerbusiness.test\bin\release\budgeteerbusiness.test.dll" id="545be745-690b-b8b1-c441-8e869608b177">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="553b427d-b174-4825-8fd4-803570090e6e" />
+      <TestMethod codeBase="C:\Develop\Budgeteer\BudgeteerBusiness.Test\bin\Release\BudgeteerBusiness.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BudgeteerBusiness.Test.BudgetTest, BudgeteerBusiness.Test" name="CopyBudgetsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="545be745-690b-b8b1-c441-8e869608b177" executionId="553b427d-b174-4825-8fd4-803570090e6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="553b427d-b174-4825-8fd4-803570090e6e" testId="545be745-690b-b8b1-c441-8e869608b177" testName="CopyBudgetsTest" computerName="TOLKIEN" duration="00:03:23.7823440" startTime="2011-10-24T20:04:02.8544847-04:00" endTime="2011-10-24T20:07:27.2641763-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BudgeteerBusiness.Test.BudgetTest.CopyBudgetsTest threw exception:  System.InvalidCastException: Conversion from type 'DBNull' to type 'Decimal' is not valid..</Message>
+          <StackTrace>    at BudgeteerBusiness.Budget.CopyBudgets(String UserID, DateTime startDate, DateTime endDate) in C:\Develop\Budgeteer\BudgeteerBusiness\Budget.vb:line 418
+   at BudgeteerBusiness.Test.BudgetTest.CopyBudgetsTest() in C:\Develop\Budgeteer\BudgeteerBusiness.Test\BudgetTest.vb:line 347
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

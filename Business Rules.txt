@@ -1,0 +1,152 @@
+Budgeteer Business Rules & Entity Definitions
+
+A. 	Accounts
+--------------------------------------------------------------------------------------------------------------
+	Accounts are user defined bank accounts and are referenced when entering transactions.
+	
+	1. 	Number - A user may specify an account number, though the number is displayed in plain text and 
+		may be of some concern to the user's security. Account numbers are not used anywhere else in the 
+		application.
+		
+	2. 	Name - This is the user-friendly name associated with the bank account. This is a required field.
+	
+	3. 	Type - This is an optional field specifying the type of account (IE Checking, Savings, Credit Card)
+	
+	4. 	Balance - This balance is associated with the bank account as a whole and is adjusted with each 
+		transaction that is associated with the account. Balances are adjusted during the following events:
+		
+		a.	Inserting a transaction.
+		b.	Deleting a transaction. 
+		c.	Modifying a transaction amount. 
+		d.	Modifying a transaction account. 
+		
+	5.	Active - A field indicated whether the account is active or not. Required Field. Two values: 1 or 0. 
+		Deafult to 1
+	
+	6.	User_ID - The user that created the account
+	
+B.	Budgets
+--------------------------------------------------------------------------------------------------------------	
+	Budgets are alotted amounts of money defined by the user for a specified amount of time (frequency) for
+	a particular category for a given month. 
+
+	1. 	Subcategory_ID - Assign a subcategory to a budget like 'groceries'. This is a required field.
+	
+	2. 	Budget_amount - Amount of money to allocate to the budget subcategory. Cannot be less than 0. This is 
+		a required field.
+		
+	3.	Start_Date - The date that the budget begins. For simplicity may want to store just the month and 
+		year. Required field.
+		
+	4.	User_ID - The user that created the budget
+	
+B1.	Categories
+--------------------------------------------------------------------------------------------------------------
+	Categories are used for grouping budget subcategories into a general category. Categories must have at 
+	least one subcategory defined but may have any number of subcategories beyond that. For instance: a user 
+	may specify 'food' as a budget category and have 'dining out', and 'groceries' as subcategories.
+	
+	1. 	Description - A user-friendly name for the category. Required field.
+	
+	2.	Active - A column to specify wheather the category is active or inactive. Only active categories will
+		show up in drop down lists.
+	
+	3.	User_ID - The user that created the category
+
+B2.	Subcategories
+--------------------------------------------------------------------------------------------------------------
+	Subcategories that are defined by the user are assigned to a budget to establish an area of spending.
+	When the user enters transactions they assign a category and subcategory to it so the application can
+	track where the money is going.
+	
+	1. 	Description - A user-friendly name for the subcategory. Required field.
+	
+	2.	Category_ID - A budget category that contains this subcategory (Example: "Food" as category, 
+		"Groceries" as subcategory)
+	
+	3.	Type - Either 'Expense' or 'Income'. 
+		
+	4. 	Sinking_Fund - A sinking fund is a subcategory with a balance that will carry over from month to 
+		month. Database values include 1 for 'yes' or 0 for 'no'. Subcategories that are sinking funds 
+		will adjust the balance with each transaction. A subcategory that is not a sinking fund will not
+		adjust the balance with each transaction. It is possible for there to be a non-zero balance for 
+		non-sinking fund subcategories if at one time they were a sinking fund and the user changed it. 
+		Only subcategories with a type of 'Expense' can be a sinking fund.
+		
+	5.	Balance - Every subcategory where sinking_fund = 1 (SF) will carry a balance. Balances will be 
+		adjusted during the following events:
+		
+		a.*	Inserting a Budget with a SF subcategory (add (budget_amount - expenses) to balance).
+		b. 	Deleting a Budget with a SF subcategory (subtract (budget_amount - expenses) from 
+			balance).
+		c. 	Modifying the SF budget_amount (subtract old budget_amount from balance and add new 
+			budget_amount).
+		d.	Modifying the SF subcategory (subtract budget_amount from old subcategory and add to new 
+			subcategory). 
+		e.	Inserting an SF 'Expense' Transaction.
+		f.	Inserting a SF 'Deposit' Transaction. 
+		g.	Deleting an SF 'Expense' Transaction. 
+		h.	Deleting a SF 'Deposit' Transaction. 
+		i. 	Modifying a SF transaction type.
+		j.	Modifying a SF transaction amount. 
+		k.	Modifying a SF transaction subcategory. 	
+		l. 	Modifying a subcategory sinking_fund.
+
+	6.	Active - A column to specify wheather the subcategory is active or inactive. Only inactive 
+		subcategories will show up in drop down lists.
+			
+	7.	User_ID - The user that created the subcategory
+	
+C.	Transactions (Cashflow)
+--------------------------------------------------------------------------------------------------------------
+	Transactions are essentially your cashflow (expenses and income). When a user creates a transaction he is
+	taking the amount of money he spent or earned and assigning it to a budget category and subcategory for 
+	the purpose of keeping a detailed record of their monthly budget. If transactions are assigned to an 
+	account, the account balance is automatically adjusted with the amount spent or earned. In this way the 
+	account balance is comparable to the actual account balance in real time, allowing the user to know 
+	exactly how much is in their account (without doing the math)!
+	
+	Description - A detailed description about the transaction. This is a required field.
+	
+	Amount - The amount spent or earned for the given transaction. Required field. Must be Positive.
+	
+	Subcategory_ID - A budget category-subcategory pair are assigned to the transaction. Required field.
+	
+	Check_Number - A field to track a check number.
+	
+	Account_ID - Assign an account to a transaction to have the balance of that account automatically adjusted.
+	
+	Date - The date that the transaction occured. Required Field.
+	
+	User_ID - The user that created the transaction.
+	
+D.	Users 
+--------------------------------------------------------------------------------------------------------------
+	Users are users of the application. 'Nuff said.
+	
+	User_ID - The unique User Name that the user chooses upon registering. Required field. Unique. 
+	
+	Password - the password that gives the user access to the application. Required field. Will probably need
+	to be encrypted in the database.
+	
+	First_Name - User's first name. This is a required field.
+	
+	Last_Name - User's last name. This is a required field.
+	
+	Email_Address - User's email address. This is a required field. Must be unique. The email address will be 
+	used to send the user a registration email as well as a means of contact for updates, password requests, 
+	etc.
+	
+E.	Application Settings
+--------------------------------------------------------------------------------------------------------------
+	User-specific application settings. Application settings can give users options to turn features on or 
+	off such as turning on budget auto-copy which will automatically copy budgets foward according to the
+	frequency specified for the particular budget (Example: A monthly budget will copy every month).
+	
+	Setting - The setting name. This is a required field.
+	
+	Value - This is the value of the setting. Some values may be 'On', 'Off', 'Yes', 'No', 'Red', 'Whatever'.
+	This is a required field.
+	
+	User_ID - This is the user that the setting applies to.
+	

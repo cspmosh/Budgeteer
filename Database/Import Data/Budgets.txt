@@ -1,0 +1,1023 @@
+@Christmas Savings	33.00	2008-11-01
+@Christmas Savings	33.00	2008-12-01
+@Christmas Savings	33.00	2009-01-01
+@Christmas Savings	396.00	2009-02-01
+@Christmas Savings	396.00	2009-03-01
+@Christmas Savings	396.00	2009-04-01
+@Christmas Savings	396.00	2009-05-01
+@Christmas Savings	396.00	2009-06-01
+@Christmas Savings	396.00	2009-07-01
+@Christmas Savings	396.00	2009-08-01
+@Christmas Savings	396.00	2009-09-01
+@Christmas Savings	396.00	2009-10-01
+@Christmas Savings	396.00	2009-11-01
+@Christmas Savings	396.00	2009-12-01
+@Christmas Savings	600.00	2010-01-01
+@Christmas Savings	600.00	2010-02-01
+@Christmas Savings	600.00	2010-03-01
+@Christmas Savings	50.00	2010-04-01
+@Christmas Savings	50.00	2010-05-01
+@Christmas Savings	50.00	2010-06-01
+@Christmas Savings	50.00	2010-07-01
+@Doctor Savings	65.00	2009-01-01
+@Doctor Savings	65.00	2009-02-01
+@Doctor Savings	65.00	2009-03-01
+@Doctor Savings	65.00	2009-04-01
+@Doctor Savings	65.00	2009-05-01
+@Doctor Savings	65.00	2009-06-01
+@Doctor Savings	65.00	2009-07-01
+@Doctor Savings	65.00	2009-08-01
+@Doctor Savings	65.00	2009-09-01
+@Doctor Savings	65.00	2009-10-01
+@Doctor Savings	65.00	2009-11-01
+@Doctor Savings	65.00	2009-12-01
+@Doctor Savings	65.00	2010-01-01
+@Doctor Savings	65.00	2010-02-01
+@Doctor Savings	65.00	2010-03-01
+@Doctor Savings	65.00	2010-04-01
+@Doctor Savings	65.00	2010-05-01
+@Doctor Savings	65.00	2010-06-01
+@Doctor Savings	65.00	2010-07-01
+@Renter's Insurance	100.00	2008-08-01
+@Vehicle - Insurance	100.67	2008-09-01
+@Vehicle - Insurance	400.04	2008-11-01
+@Vehicle - Insurance	400.04	2008-12-01
+@Vehicle - Insurance	400.04	2009-01-01
+@Vehicle - Insurance	400.04	2009-02-01
+@Vehicle - Insurance	400.04	2009-03-01
+@Vehicle - Insurance	400.04	2009-04-01
+@Vehicle - Insurance	400.04	2009-05-01
+@Vehicle - Insurance	400.04	2009-06-01
+@Vehicle - Insurance	400.04	2009-07-01
+@Vehicle - Insurance	740.94	2009-08-01
+@Vehicle - Insurance	823.00	2009-09-01
+@Vehicle - Insurance	420.00	2009-10-01
+@Vehicle - Insurance	420.00	2009-11-01
+@Vehicle - Insurance	420.00	2009-12-01
+@Vehicle - Insurance	475.00	2010-01-01
+@Vehicle - Insurance	600.00	2010-02-01
+@Vehicle - Insurance	600.00	2010-03-01
+@Vehicle - Insurance	600.00	2010-04-01
+@Vehicle - Insurance	600.00	2010-05-01
+@Vehicle - Insurance	600.00	2010-06-01
+@Vehicle - Insurance	600.00	2010-07-01
+Allowance (Josh)	20.00	2008-09-01
+Allowance (Josh)	5.60	2008-10-01
+Allowance (Josh)	20.00	2008-11-01
+Allowance (Josh)	20.00	2008-12-01
+Allowance (Josh)	20.00	2009-01-01
+Allowance (Josh)	20.00	2009-02-01
+Allowance (Josh)	20.00	2009-03-01
+Allowance (Josh)	20.00	2009-04-01
+Allowance (Josh)	20.00	2009-05-01
+Allowance (Josh)	20.00	2009-06-01
+Allowance (Josh)	20.00	2009-07-01
+Allowance (Josh)	20.00	2009-08-01
+Allowance (Josh)	30.00	2009-09-01
+Allowance (Josh)	30.00	2009-10-01
+Allowance (Josh)	30.00	2009-11-01
+Allowance (Josh)	30.00	2009-12-01
+Allowance (Josh)	30.00	2010-01-01
+Allowance (Josh)	30.00	2010-02-01
+Allowance (Josh)	30.00	2010-03-01
+Allowance (Josh)	30.00	2010-04-01
+Allowance (Josh)	30.00	2010-05-01
+Allowance (Josh)	30.00	2010-06-01
+Allowance (Josh)	30.00	2010-07-01
+Allowance (Josh)	25.00	2010-08-01
+Allowance (Josh)	25.00	2010-09-01
+Allowance (Josh)	25.00	2010-10-01
+Allowance (Josh)	25.00	2010-11-01
+Allowance (Josh)	25.00	2010-12-01
+Allowance (Josh)	25.00	2011-01-01
+Allowance (Josh)	25.00	2011-02-01
+Allowance (Josh)	25.00	2011-03-01
+Allowance (Josh)	20.00	2011-04-01
+Allowance (Josh)	20.00	2011-05-01
+Allowance (Josh)	20.00	2011-06-01
+Allowance (Josh)	25.00	2011-07-01
+Allowance (Josh)	20.00	2011-08-01
+Allowance (Josh)	20.00	2011-09-01
+Allowance (Josh)	20.00	2011-10-01
+Allowance (Josh)	20.00	2011-11-01
+Allowance (Savannah)	20.00	2008-09-01
+Allowance (Savannah)	20.00	2008-10-01
+Allowance (Savannah)	20.00	2008-11-01
+Allowance (Savannah)	20.00	2008-12-01
+Allowance (Savannah)	20.00	2009-01-01
+Allowance (Savannah)	20.00	2009-02-01
+Allowance (Savannah)	20.00	2009-03-01
+Allowance (Savannah)	20.00	2009-04-01
+Allowance (Savannah)	20.00	2009-05-01
+Allowance (Savannah)	20.00	2009-06-01
+Allowance (Savannah)	20.00	2009-07-01
+Allowance (Savannah)	20.00	2009-08-01
+Allowance (Savannah)	30.00	2009-09-01
+Allowance (Savannah)	30.00	2009-10-01
+Allowance (Savannah)	30.00	2009-11-01
+Allowance (Savannah)	30.00	2009-12-01
+Allowance (Savannah)	30.00	2010-01-01
+Allowance (Savannah)	30.00	2010-02-01
+Allowance (Savannah)	30.00	2010-03-01
+Allowance (Savannah)	30.00	2010-04-01
+Allowance (Savannah)	30.00	2010-05-01
+Allowance (Savannah)	30.00	2010-06-01
+Allowance (Savannah)	30.00	2010-07-01
+Allowance (Savannah)	25.00	2010-08-01
+Allowance (Savannah)	25.00	2010-09-01
+Allowance (Savannah)	25.00	2010-10-01
+Allowance (Savannah)	25.00	2010-11-01
+Allowance (Savannah)	25.00	2010-12-01
+Allowance (Savannah)	25.00	2011-01-01
+Allowance (Savannah)	25.00	2011-02-01
+Allowance (Savannah)	25.00	2011-03-01
+Allowance (Savannah)	20.00	2011-04-01
+Allowance (Savannah)	20.00	2011-05-01
+Allowance (Savannah)	20.00	2011-06-01
+Allowance (Savannah)	25.00	2011-07-01
+Allowance (Savannah)	20.00	2011-08-01
+Allowance (Savannah)	20.00	2011-09-01
+Allowance (Savannah)	20.00	2011-10-01
+Allowance (Savannah)	20.00	2011-11-01
+Apartment Rent	729.00	2008-09-01
+Apartment Rent	729.00	2008-10-01
+Apartment Rent	729.00	2008-11-01
+Apartment Rent	729.00	2008-12-01
+Apartment Rent	729.00	2009-01-01
+Apartment Rent	729.00	2009-02-01
+Apartment Rent	729.00	2009-03-01
+Apartment Rent	729.00	2009-04-01
+Apartment Rent	754.00	2009-05-01
+Apartment Rent	754.00	2009-06-01
+Apartment Rent	754.00	2009-07-01
+Apartment Rent	754.00	2009-08-01
+Apartment Rent	754.00	2009-09-01
+Apartment Rent	754.00	2009-10-01
+Apartment Rent	754.00	2009-11-01
+Apartment Rent	754.00	2009-12-01
+Apartment Rent	754.00	2010-01-01
+Apartment Rent	754.00	2010-02-01
+Apartment Rent	754.00	2010-03-01
+Apartment Rent	754.00	2010-04-01
+Apartment Rent	754.00	2010-05-01
+Apartment Rent	754.00	2010-06-01
+Apartment Rent	754.00	2010-07-01
+Apartment Rent	785.00	2010-08-01
+Apartment Rent	785.00	2010-09-01
+Apartment Rent	785.00	2010-10-01
+Apartment Rent	785.00	2010-11-01
+Apartment Rent	785.00	2010-12-01
+Apartment Rent	785.00	2011-01-01
+Apartment Rent	785.00	2011-02-01
+Apartment Rent	785.00	2011-03-01
+Apartment Rent	785.00	2011-04-01
+Apartment Rent	785.00	2011-05-01
+Apartment Rent	785.00	2011-06-01
+Apartment Rent	785.00	2011-07-01
+Apartment Rent	785.00	2011-08-01
+Apartment Rent	785.00	2011-09-01
+Apartment Rent	785.00	2011-10-01
+Apartment Rent	785.00	2011-11-01
+Big Spending Savings	50.00	2008-11-01
+Big Spending Savings	50.00	2008-12-01
+Big Spending Savings	50.00	2009-01-01
+Big Spending Savings	50.00	2009-02-01
+Big Spending Savings	50.00	2009-03-01
+Big Spending Savings	50.00	2009-04-01
+Big Spending Savings	50.00	2009-05-01
+Big Spending Savings	50.00	2009-06-01
+Big Spending Savings	50.00	2009-07-01
+Big Spending Savings	50.00	2009-08-01
+Big Spending Savings	50.00	2009-09-01
+Big Spending Savings	50.00	2009-10-01
+Big Spending Savings	50.00	2009-11-01
+Big Spending Savings	50.00	2009-12-01
+Big Spending Savings	50.00	2010-01-01
+Big Spending Savings	50.00	2010-02-01
+Big Spending Savings	50.00	2010-03-01
+Big Spending Savings	50.00	2010-04-01
+Big Spending Savings	50.00	2010-05-01
+Big Spending Savings	50.00	2010-06-01
+Big Spending Savings	50.00	2010-07-01
+Birth Control	9.00	2008-08-01
+Birth Control	9.00	2008-09-01
+Birth Control	10.00	2008-10-01
+Birth Control	10.00	2008-11-01
+Birth Control	10.00	2008-12-01
+Birth Control	10.00	2009-01-01
+Birth Control	10.00	2009-02-01
+Birth Control	10.00	2009-03-01
+Birth Control	10.00	2009-04-01
+Birth Control	10.00	2009-05-01
+Birth Control	10.00	2009-06-01
+Birth Control	10.00	2009-07-01
+Birth Control	10.00	2009-08-01
+Birth Control	10.00	2009-09-01
+Birth Control	10.00	2009-10-01
+Birth Control	10.00	2009-11-01
+Birth Control	10.00	2009-12-01
+Birth Control	10.00	2010-01-01
+Birth Control	10.00	2010-02-01
+Birth Control	10.00	2010-03-01
+Birth Control	10.00	2010-04-01
+Birth Control	10.00	2010-05-01
+Birth Control	10.00	2010-06-01
+Birth Control	10.00	2010-07-01
+Birth Control	10.00	2010-08-01
+Birth Control	10.00	2010-09-01
+Birth Control	10.00	2010-10-01
+Birth Control	10.00	2010-11-01
+Birth Control	10.00	2010-12-01
+Birth Control	10.00	2011-01-01
+Birth Control	10.00	2011-02-01
+Birth Control	10.00	2011-03-01
+Birth Control	10.00	2011-04-01
+Birth Control	10.00	2011-05-01
+Birth Control	10.00	2011-06-01
+Birth Control	10.00	2011-07-01
+Birth Control	10.00	2011-08-01
+Birth Control	10.00	2011-09-01
+Birth Control	10.00	2011-10-01
+Birth Control	10.00	2011-11-01
+Budgeteer	30.00	2011-11-01
+Cell Phone	48.53	2008-07-01
+Cell Phone	48.53	2008-08-01
+Cell Phone	48.53	2008-09-01
+Cell Phone	48.53	2008-10-01
+Cell Phone	48.53	2008-11-01
+Cell Phone	48.53	2008-12-01
+Cell Phone	46.47	2009-01-01
+Cell Phone	46.47	2009-02-01
+Cell Phone	46.47	2009-03-01
+Cell Phone	46.47	2009-04-01
+Cell Phone	46.47	2009-05-01
+Cell Phone	46.47	2009-06-01
+Cell Phone	46.47	2009-07-01
+Cell Phone	46.47	2009-08-01
+Cell Phone	60.00	2009-09-01
+Cell Phone	71.00	2009-10-01
+Cell Phone	71.00	2009-11-01
+Cell Phone	71.00	2009-12-01
+Cell Phone	71.00	2010-01-01
+Cell Phone	80.00	2010-02-01
+Cell Phone	80.00	2010-03-01
+Cell Phone	65.00	2010-04-01
+Cell Phone	65.00	2010-05-01
+Cell Phone	65.00	2010-06-01
+Cell Phone	65.00	2010-07-01
+Cell Phone	65.00	2010-08-01
+Cell Phone	65.00	2010-09-01
+Cell Phone	65.00	2010-10-01
+Cell Phone	65.00	2010-11-01
+Cell Phone	65.00	2010-12-01
+Cell Phone	65.00	2011-01-01
+Cell Phone	65.00	2011-02-01
+Cell Phone	65.00	2011-03-01
+Cell Phone	65.00	2011-04-01
+Cell Phone	65.00	2011-05-01
+Cell Phone	65.00	2011-06-01
+Cell Phone	65.00	2011-07-01
+Cell Phone	65.00	2011-08-01
+Cell Phone	70.00	2011-09-01
+Cell Phone	65.00	2011-10-01
+Cell Phone	65.00	2011-11-01
+Christmas Budget	0.00	2009-11-01
+Christmas Budget	0.00	2009-12-01
+Christmas Budget	0.00	2011-09-01
+Christmas Gifts	0.00	2008-11-01
+Christmas Gifts	0.00	2008-12-01
+Clothing	15.00	2010-08-01
+Clothing	15.00	2010-09-01
+Clothing	15.00	2010-10-01
+Clothing	15.00	2010-11-01
+Clothing	15.00	2010-12-01
+Clothing	15.00	2011-01-01
+Clothing	15.00	2011-02-01
+Clothing	15.00	2011-03-01
+Clothing	15.00	2011-08-01
+Clothing	15.00	2011-09-01
+Columbus Dispatch	9.92	2010-04-01
+Columbus Dispatch	9.92	2010-05-01
+Columbus Dispatch	9.92	2010-06-01
+Columbus Dispatch	9.92	2010-07-01
+Columbus Dispatch	9.92	2010-08-01
+Columbus Dispatch	9.92	2010-09-01
+Columbus Dispatch	9.92	2010-10-01
+Compassion	32.00	2008-08-01
+Compassion	32.00	2008-09-01
+Compassion	32.00	2008-10-01
+Compassion	32.00	2008-11-01
+Compassion	32.00	2008-12-01
+Compassion	32.00	2009-01-01
+Compassion	32.00	2009-02-01
+Compassion	32.00	2009-03-01
+Compassion	32.00	2009-04-01
+Compassion	32.00	2009-05-01
+Compassion	32.00	2009-06-01
+Compassion	32.00	2009-07-01
+Compassion	38.00	2009-08-01
+Compassion	38.00	2009-09-01
+Compassion	38.00	2009-10-01
+Compassion	38.00	2009-11-01
+Compassion	38.00	2009-12-01
+Compassion	38.00	2010-01-01
+Compassion	38.00	2010-02-01
+Compassion	38.00	2010-03-01
+Compassion	38.00	2010-04-01
+Compassion	38.00	2010-05-01
+Compassion	38.00	2010-06-01
+Compassion	38.00	2010-07-01
+Compassion	38.00	2010-08-01
+Compassion	38.00	2010-09-01
+Compassion	38.00	2010-10-01
+Compassion	38.00	2010-11-01
+Compassion	38.00	2010-12-01
+Compassion	38.00	2011-01-01
+Compassion	38.00	2011-02-01
+Compassion	38.00	2011-03-01
+Compassion	38.00	2011-04-01
+Compassion	38.00	2011-05-01
+Compassion	38.00	2011-06-01
+Compassion	38.00	2011-07-01
+Compassion	38.00	2011-08-01
+Compassion	38.00	2011-09-01
+Compassion	38.00	2011-10-01
+Compassion	38.00	2011-11-01
+CRC	1533.18	2010-08-01
+CRC	1533.18	2010-09-01
+CRC	1533.18	2010-10-01
+CRC	1533.18	2010-11-01
+CRC	1533.18	2010-12-01
+CRC	1533.18	2011-01-01
+CRC	1463.40	2011-02-01
+CRC	1463.40	2011-03-01
+CRC	1463.40	2011-04-01
+CRC	1463.40	2011-05-01
+CRC	1463.40	2011-06-01
+CRC	1463.40	2011-07-01
+CRC	1518.32	2011-08-01
+CRC	1518.32	2011-09-01
+CRC	1518.32	2011-10-01
+CRC	1518.32	2011-11-01
+Electric Bill	34.56	2008-08-01
+Electric Bill	34.56	2008-09-01
+Electric Bill	34.56	2008-10-01
+Electric Bill	34.56	2008-11-01
+Electric Bill	92.05	2008-12-01
+Electric Bill	92.05	2009-01-01
+Electric Bill	92.05	2009-02-01
+Electric Bill	92.05	2009-03-01
+Electric Bill	92.05	2009-04-01
+Electric Bill	92.05	2009-05-01
+Electric Bill	92.05	2009-06-01
+Electric Bill	100.00	2009-07-01
+Electric Bill	100.00	2009-08-01
+Electric Bill	100.00	2009-09-01
+Electric Bill	100.00	2009-10-01
+Electric Bill	100.00	2009-11-01
+Electric Bill	100.00	2009-12-01
+Electric Bill	101.83	2010-01-01
+Electric Bill	101.83	2010-02-01
+Electric Bill	133.00	2010-03-01
+Electric Bill	133.00	2010-04-01
+Electric Bill	133.00	2010-05-01
+Electric Bill	133.00	2010-06-01
+Electric Bill	133.00	2010-07-01
+Electric Bill	100.00	2010-08-01
+Electric Bill	100.00	2010-09-01
+Electric Bill	100.00	2010-10-01
+Electric Bill	95.00	2010-11-01
+Electric Bill	100.00	2010-12-01
+Electric Bill	100.00	2011-01-01
+Electric Bill	200.00	2011-02-01
+Electric Bill	200.00	2011-03-01
+Electric Bill	150.00	2011-04-01
+Electric Bill	130.00	2011-05-01
+Electric Bill	130.00	2011-06-01
+Electric Bill	130.00	2011-07-01
+Electric Bill	130.00	2011-08-01
+Electric Bill	130.00	2011-09-01
+Electric Bill	100.00	2011-10-01
+Electric Bill	100.00	2011-11-01
+Emergency Savings	150.00	2008-11-01
+Emergency Savings	150.00	2008-12-01
+Emergency Savings	150.00	2009-01-01
+Emergency Savings	150.00	2009-02-01
+Emergency Savings	150.00	2009-03-01
+Emergency Savings	150.00	2009-04-01
+Emergency Savings	150.00	2009-05-01
+Emergency Savings	150.00	2009-06-01
+Emergency Savings	150.00	2009-07-01
+Emergency Savings	150.00	2009-08-01
+Emergency Savings	150.00	2009-09-01
+Emergency Savings	225.00	2009-10-01
+Emergency Savings	225.00	2009-11-01
+Emergency Savings	225.00	2009-12-01
+Emergency Savings	514.00	2010-01-01
+Emergency Savings	514.00	2010-02-01
+Emergency Savings	514.00	2010-03-01
+Emergency Savings	514.00	2010-04-01
+Emergency Savings	514.00	2010-05-01
+Emergency Savings	514.00	2010-06-01
+Emergency Savings	514.00	2010-07-01
+Gasoline	32.00	2008-07-01
+Gasoline	32.00	2008-08-01
+Gasoline	400.00	2008-09-01
+Gasoline	32.00	2008-10-01
+Gasoline	300.00	2008-11-01
+Gasoline	227.44	2008-12-01
+Gasoline	300.00	2009-01-01
+Gasoline	300.00	2009-02-01
+Gasoline	300.00	2009-03-01
+Gasoline	200.00	2009-04-01
+Gasoline	200.00	2009-05-01
+Gasoline	200.00	2009-06-01
+Gasoline	200.00	2009-07-01
+Gasoline	200.00	2009-08-01
+Gasoline	200.00	2009-09-01
+Gasoline	200.00	2009-10-01
+Gasoline	200.00	2009-11-01
+Gasoline	200.00	2009-12-01
+Gasoline	200.00	2010-01-01
+Gasoline	200.00	2010-02-01
+Gasoline	200.00	2010-03-01
+Gasoline	200.00	2010-04-01
+Gasoline	200.00	2010-05-01
+Gasoline	200.00	2010-06-01
+Gasoline	200.00	2010-07-01
+Gasoline	200.00	2010-08-01
+Gasoline	200.00	2010-09-01
+Gasoline	200.00	2010-10-01
+Gasoline	200.00	2010-11-01
+Gasoline	200.00	2010-12-01
+Gasoline	200.00	2011-01-01
+Gasoline	200.00	2011-02-01
+Gasoline	200.00	2011-03-01
+Gasoline	200.00	2011-04-01
+Gasoline	200.00	2011-05-01
+Gasoline	200.00	2011-06-01
+Gasoline	200.00	2011-07-01
+Gasoline	200.00	2011-08-01
+Gasoline	200.00	2011-09-01
+Gasoline	200.00	2011-10-01
+Gasoline	200.00	2011-11-01
+Graduation Expense	200.00	2009-05-01
+Groceries	49.00	2008-06-01
+Groceries	49.00	2008-07-01
+Groceries	49.00	2008-08-01
+Groceries	250.00	2008-09-01
+Groceries	49.00	2008-10-01
+Groceries	250.00	2008-11-01
+Groceries	250.00	2008-12-01
+Groceries	250.00	2009-01-01
+Groceries	250.00	2009-02-01
+Groceries	250.00	2009-03-01
+Groceries	250.00	2009-04-01
+Groceries	250.00	2009-05-01
+Groceries	250.00	2009-06-01
+Groceries	225.00	2009-07-01
+Groceries	250.00	2009-08-01
+Groceries	250.00	2009-09-01
+Groceries	250.00	2009-10-01
+Groceries	250.00	2009-11-01
+Groceries	250.00	2009-12-01
+Groceries	250.00	2010-01-01
+Groceries	250.00	2010-02-01
+Groceries	250.00	2010-03-01
+Groceries	250.00	2010-04-01
+Groceries	250.00	2010-05-01
+Groceries	250.00	2010-06-01
+Groceries	250.00	2010-07-01
+Groceries	250.00	2010-08-01
+Groceries	300.00	2010-09-01
+Groceries	277.00	2010-10-01
+Groceries	280.00	2010-11-01
+Groceries	280.00	2010-12-01
+Groceries	280.00	2011-01-01
+Groceries	280.00	2011-02-01
+Groceries	280.00	2011-03-01
+Groceries	280.00	2011-04-01
+Groceries	280.00	2011-05-01
+Groceries	280.00	2011-06-01
+Groceries	280.00	2011-07-01
+Groceries	295.00	2011-08-01
+Groceries	285.00	2011-09-01
+Groceries	285.00	2011-10-01
+Groceries	285.00	2011-11-01
+Haircut	14.95	2008-07-01
+Haircut	14.95	2008-09-01
+Haircut	14.95	2008-10-01
+Haircut	14.95	2008-12-01
+Haircut	14.95	2009-01-01
+Haircut	14.95	2009-02-01
+Haircut	14.95	2009-03-01
+Haircut	14.95	2009-04-01
+Haircut	14.95	2009-05-01
+Haircut	14.95	2009-06-01
+Haircut	14.95	2009-07-01
+Haircut	14.95	2009-08-01
+Haircut	14.95	2009-09-01
+Haircut	14.95	2009-12-01
+Haircut	14.95	2010-01-01
+Haircut	14.95	2010-02-01
+Haircut	14.95	2010-03-01
+Haircut	14.95	2010-04-01
+Haircut	14.95	2010-05-01
+Haircut	14.95	2010-06-01
+Haircut	14.95	2010-07-01
+Haircut	14.95	2010-08-01
+Haircut	14.95	2010-09-01
+Haircut	14.95	2010-10-01
+Haircut	14.95	2010-11-01
+Haircut	14.95	2010-12-01
+Haircut	14.95	2011-01-01
+Haircut	14.95	2011-02-01
+Haircut	14.95	2011-03-01
+Haircut	14.95	2011-04-01
+Haircut	14.60	2011-05-01
+Haircut	14.60	2011-06-01
+Haircut	14.60	2011-07-01
+Haircut	14.60	2011-10-01
+Haircut	14.60	2011-11-01
+Household Items	10.00	2010-08-01
+Household Items	10.00	2010-09-01
+Internet Bill	55.00	2008-08-01
+Internet Bill	40.00	2008-09-01
+Internet Bill	55.00	2008-10-01
+Internet Bill	40.00	2008-11-01
+Internet Bill	40.00	2008-12-01
+Internet Bill	40.00	2009-01-01
+Internet Bill	40.00	2009-02-01
+Internet Bill	40.00	2009-03-01
+Internet Bill	40.00	2009-04-01
+Internet Bill	40.00	2009-05-01
+Internet Bill	40.00	2009-06-01
+Internet Bill	40.00	2009-07-01
+Internet Bill	45.00	2009-08-01
+Internet Bill	45.00	2009-09-01
+Internet Bill	30.00	2009-10-01
+Internet Bill	30.00	2009-11-01
+Internet Bill	30.00	2009-12-01
+Internet Bill	30.00	2010-01-01
+Internet Bill	30.00	2010-02-01
+Internet Bill	30.00	2010-03-01
+Internet Bill	30.00	2010-04-01
+Internet Bill	30.00	2010-05-01
+Internet Bill	30.00	2010-06-01
+Internet Bill	30.00	2010-07-01
+Internet Bill	40.00	2010-08-01
+Internet Bill	40.00	2010-09-01
+Internet Bill	40.00	2010-10-01
+Internet Bill	40.00	2010-11-01
+Internet Bill	40.00	2010-12-01
+Internet Bill	40.00	2011-01-01
+Internet Bill	44.27	2011-02-01
+Internet Bill	44.27	2011-03-01
+Internet Bill	44.27	2011-04-01
+Internet Bill	44.27	2011-05-01
+Internet Bill	44.27	2011-06-01
+Internet Bill	44.27	2011-07-01
+Internet Bill	44.27	2011-08-01
+Internet Bill	44.27	2011-09-01
+Internet Bill	44.27	2011-10-01
+Internet Bill	44.27	2011-11-01
+Job Expense	0.00	2010-01-01
+Job Expense	0.00	2010-02-01
+Job Expense	0.00	2010-03-01
+Job Expense	0.00	2010-04-01
+Job Expense	0.00	2010-05-01
+Job Expense	0.00	2010-06-01
+Job Expense	0.00	2010-07-01
+Job Expense	0.00	2010-08-01
+Job Expense	0.00	2010-09-01
+Job Expense	0.00	2010-10-01
+Job Expense	0.00	2010-11-01
+Job Expense	0.00	2010-12-01
+Job Expense	0.00	2011-01-01
+Job Expense	0.00	2011-02-01
+Job Expense	0.00	2011-03-01
+Job Expense	0.00	2011-04-01
+Job Expense	0.00	2011-05-01
+Job Expense	0.00	2011-06-01
+Job Expense	0.00	2011-07-01
+Job Expense	0.00	2011-08-01
+Job Expense	0.00	2011-09-01
+Job Expense	0.00	2011-10-01
+Job Expense	0.00	2011-11-01
+Lucas	143.22	2009-04-01
+Lucas	143.22	2009-05-01
+Lucas	143.22	2009-06-01
+Lucas	143.22	2009-07-01
+Lucas	143.22	2009-08-01
+Lucas	143.22	2009-09-01
+Lucas	15.00	2010-08-01
+Monthly Savings	245.42	2010-08-01
+Monthly Savings	228.42	2010-09-01
+Monthly Savings	228.42	2010-10-01
+Monthly Savings	228.42	2010-11-01
+Monthly Savings	228.42	2010-12-01
+Monthly Savings	228.42	2011-01-01
+Monthly Savings	228.42	2011-02-01
+Monthly Savings	228.42	2011-03-01
+Monthly Savings	228.42	2011-04-01
+Monthly Savings	242.17	2011-05-01
+Monthly Savings	242.17	2011-06-01
+Monthly Savings	242.17	2011-07-01
+Monthly Savings	300.00	2011-08-01
+Monthly Savings	300.00	2011-09-01
+Monthly Savings	300.00	2011-10-01
+Monthly Savings	300.00	2011-11-01
+Optometrist	176.00	2008-12-01
+Optometrist	176.00	2009-01-01
+Other Expense	23.00	2008-06-01
+Other Expense	23.00	2008-07-01
+Other Expense	23.00	2008-08-01
+Other Expense	0.00	2008-09-01
+Other Expense	23.00	2008-10-01
+Other Expense	0.00	2008-11-01
+Other Expense	0.00	2008-12-01
+Other Expense	0.00	2009-01-01
+Other Expense	0.00	2009-02-01
+Other Expense	0.00	2009-03-01
+Other Expense	0.00	2009-04-01
+Other Expense	0.00	2009-05-01
+Other Expense	0.00	2009-06-01
+Other Expense	0.00	2009-07-01
+Other Expense	0.00	2009-08-01
+Other Expense	0.00	2009-09-01
+Other Expense	0.00	2009-10-01
+Other Expense	0.00	2009-11-01
+Other Expense	0.00	2009-12-01
+Other Expense	87.40	2010-01-01
+Other Expense	0.00	2010-02-01
+Other Expense	0.00	2010-03-01
+Other Expense	0.00	2010-04-01
+Other Expense	0.00	2010-05-01
+Other Expense	0.00	2010-06-01
+Other Expense	0.00	2010-07-01
+Other Expense	0.00	2010-08-01
+Other Expense	20.00	2010-09-01
+Other Expense	20.00	2010-10-01
+Other Expense	20.00	2010-11-01
+Other Expense	20.00	2010-12-01
+Other Expense	20.00	2011-01-01
+Other Expense	20.00	2011-02-01
+Other Expense	20.00	2011-03-01
+Other Expense	20.00	2011-04-01
+Other Expense	20.00	2011-05-01
+Other Expense	20.00	2011-06-01
+Other Expense	20.00	2011-07-01
+Other Expense	11.19	2011-08-01
+Other Expense	21.19	2011-09-01
+Other Expense	21.19	2011-10-01
+Other Expense	21.19	2011-11-01
+Other Income	0.00	2008-08-01
+Other Income	0.00	2008-09-01
+Other Income	0.00	2008-11-01
+Other Income	0.00	2008-12-01
+Other Income	0.00	2009-01-01
+Other Income	0.00	2009-02-01
+Other Income	0.00	2009-03-01
+Other Income	0.00	2009-04-01
+Other Income	0.00	2009-05-01
+Other Income	0.00	2009-06-01
+Other Income	0.00	2009-07-01
+Other Income	0.00	2009-08-01
+Other Income	0.00	2009-09-01
+Other Income	0.00	2009-10-01
+Other Income	0.00	2009-11-01
+Other Income	0.00	2009-12-01
+Other Income	0.00	2010-01-01
+Other Income	0.00	2010-02-01
+Other Income	0.00	2010-03-01
+Other Income	0.00	2010-04-01
+Other Income	0.00	2010-05-01
+Other Income	0.00	2010-06-01
+Other Income	0.00	2010-07-01
+Other Income	0.00	2010-08-01
+Other Income	0.00	2010-09-01
+Other Income	0.00	2010-10-01
+Other Income	0.00	2010-11-01
+Other Income	0.00	2010-12-01
+Other Income	0.00	2011-01-01
+Other Income	0.00	2011-02-01
+Other Income	0.00	2011-03-01
+Other Income	0.00	2011-04-01
+Other Income	0.00	2011-05-01
+Other Income	0.00	2011-06-01
+Other Income	0.00	2011-07-01
+Other Income	0.00	2011-08-01
+Other Income	0.00	2011-09-01
+Other Income	0.00	2011-10-01
+Other Income	0.00	2011-11-01
+Parent Plus Loan	261.00	2008-07-01
+Parent Plus Loan	261.00	2008-08-01
+Parent Plus Loan	261.00	2008-09-01
+Parent Plus Loan	261.00	2008-10-01
+Parent Plus Loan	261.00	2008-11-01
+Parent Plus Loan	261.55	2008-12-01
+Parent Plus Loan	261.55	2009-01-01
+Parent Plus Loan	261.55	2009-02-01
+Parent Plus Loan	261.55	2009-03-01
+Parent Plus Loan	261.55	2009-04-01
+Parent Plus Loan	261.55	2009-05-01
+Parent Plus Loan	261.55	2009-06-01
+Parent Plus Loan	261.55	2009-07-01
+Parent Plus Loan	261.55	2009-08-01
+Parent Plus Loan	261.55	2009-09-01
+Parent Plus Loan	261.55	2009-10-01
+Parent Plus Loan	261.55	2009-11-01
+Parent Plus Loan	261.55	2009-12-01
+Parent Plus Loan	261.55	2010-01-01
+Parent Plus Loan	261.55	2010-02-01
+Parent Plus Loan	261.55	2010-03-01
+Parent Plus Loan	261.55	2010-04-01
+Parent Plus Loan	261.55	2010-05-01
+Parent Plus Loan	261.55	2010-06-01
+Parent Plus Loan	261.55	2010-07-01
+Parent Plus Loan	261.55	2010-08-01
+Parent Plus Loan	261.55	2010-09-01
+Parent Plus Loan	261.55	2010-10-01
+Parent Plus Loan	261.55	2010-11-01
+Parent Plus Loan	2120.27	2010-12-01
+Parent Plus Loan	2120.27	2011-01-01
+Parent Plus Loan	2020.27	2011-02-01
+Parent Plus Loan	1918.40	2011-03-01
+Parent Plus Loan	2000.00	2011-04-01
+Parent Plus Loan	2000.00	2011-05-01
+Parent Plus Loan	2000.00	2011-06-01
+Parent Plus Loan	2000.00	2011-07-01
+Parent Plus Loan	2000.00	2011-08-01
+Parent Plus Loan	2000.00	2011-09-01
+Parent Plus Loan	2000.00	2011-10-01
+Parent Plus Loan	2200.00	2011-11-01
+Perkins Loan	40.00	2009-03-01
+Perkins Loan	40.00	2009-04-01
+Perkins Loan	40.00	2009-05-01
+Perkins Loan	40.00	2009-06-01
+Perkins Loan	40.00	2009-07-01
+Perkins Loan	40.00	2009-08-01
+Perkins Loan	40.00	2009-09-01
+Perkins Loan	40.00	2009-10-01
+Perkins Loan	40.00	2009-11-01
+Perkins Loan	40.00	2009-12-01
+Pet Expenses	5.32	2009-03-01
+Pet Expenses	60.00	2009-04-01
+Pet Expenses	60.00	2009-05-01
+Pet Expenses	60.00	2009-06-01
+Pet Expenses	25.00	2009-07-01
+Pet Expenses	15.00	2010-09-01
+Pet Expenses	15.00	2010-10-01
+Pet Expenses	15.00	2010-11-01
+Pet Expenses	15.00	2010-12-01
+Pet Expenses	15.00	2011-01-01
+Pet Expenses	15.00	2011-02-01
+Pet Expenses	15.00	2011-03-01
+Pet Expenses	15.00	2011-04-01
+Pet Expenses	15.00	2011-05-01
+Pet Expenses	15.00	2011-06-01
+Pet Expenses	15.00	2011-07-01
+Primary Solutions	512.97	2008-08-01
+Primary Solutions	2035.07	2008-09-01
+Primary Solutions	512.97	2008-10-01
+Primary Solutions	2793.46	2008-11-01
+Primary Solutions	2793.00	2008-12-01
+Primary Solutions	2793.00	2009-01-01
+Primary Solutions	2793.00	2009-02-01
+Primary Solutions	2820.34	2009-03-01
+Primary Solutions	2864.36	2009-04-01
+Primary Solutions	2864.36	2009-05-01
+Primary Solutions	2864.36	2009-06-01
+Primary Solutions	2864.36	2009-07-01
+Primary Solutions	2864.36	2009-08-01
+Primary Solutions	2864.36	2009-09-01
+Primary Solutions	2864.36	2009-10-01
+Primary Solutions	2864.36	2009-11-01
+Primary Solutions	2918.28	2009-12-01
+Primary Solutions	2711.08	2010-01-01
+Primary Solutions	2711.08	2010-02-01
+Primary Solutions	2711.08	2010-03-01
+Primary Solutions	2711.08	2010-04-01
+Primary Solutions	2711.08	2010-05-01
+Primary Solutions	2711.08	2010-06-01
+Primary Solutions	2711.08	2010-07-01
+Primary Solutions	2833.08	2010-08-01
+Primary Solutions	2833.08	2010-09-01
+Primary Solutions	3066.60	2010-10-01
+Primary Solutions	3182.35	2010-11-01
+Primary Solutions	3182.35	2010-12-01
+Primary Solutions	3182.35	2011-01-01
+Primary Solutions	3143.68	2011-02-01
+Primary Solutions	3143.68	2011-03-01
+Primary Solutions	3143.68	2011-04-01
+Primary Solutions	3143.68	2011-05-01
+Primary Solutions	3143.68	2011-06-01
+Primary Solutions	3143.68	2011-07-01
+Primary Solutions	3143.68	2011-08-01
+Primary Solutions	3143.68	2011-09-01
+Primary Solutions	3143.68	2011-10-01
+Primary Solutions	3390.00	2011-11-01
+Savings	25.00	2008-11-01
+Smart Car Payment	275.43	2009-08-01
+Smart Car Payment	275.43	2009-09-01
+Smart Car Payment	275.43	2009-10-01
+Smart Car Payment	275.43	2009-11-01
+Smart Car Payment	275.43	2009-12-01
+Smart Car Payment	275.43	2010-01-01
+Smart Car Payment	275.43	2010-02-01
+Smart Car Payment	275.43	2010-03-01
+Smart Car Payment	275.43	2010-04-01
+Smart Car Payment	275.43	2010-05-01
+Smart Car Payment	275.43	2010-06-01
+Smart Car Payment	275.43	2010-07-01
+Smart Car Payment	275.43	2010-08-01
+Smart Car Payment	275.43	2010-09-01
+Smart Car Payment	275.43	2010-10-01
+Smart Car Payment	275.43	2010-11-01
+Smart Car Payment 2	1229.05	2010-09-01
+Smart Car Payment 2	1472.17	2010-10-01
+Smart Car Payment 2	1573.38	2010-11-01
+Stafford Loan 1	62.46	2008-09-01
+Stafford Loan 1	62.46	2008-10-01
+Stafford Loan 1	62.46	2008-11-01
+Stafford Loan 1	62.46	2008-12-01
+Stafford Loan 1	62.46	2009-01-01
+Stafford Loan 1	62.46	2009-02-01
+Stafford Loan 1	62.46	2009-03-01
+Stafford Loan 1	62.46	2009-04-01
+Stafford Loan 1	62.46	2009-05-01
+Stafford Loan 1	62.46	2009-06-01
+Stafford Loan 1	62.46	2009-07-01
+Stafford Loan 1	62.46	2009-08-01
+Stafford Loan 1	62.46	2009-09-01
+Stafford Loan 1	62.46	2009-10-01
+Stafford Loan 1	62.46	2009-11-01
+Stafford Loan 1	62.46	2009-12-01
+Stafford Loan 1	62.46	2010-01-01
+Stafford Loan 1	62.46	2010-02-01
+Stafford Loan 1	62.46	2010-03-01
+Stafford Loan 1	62.46	2010-04-01
+Stafford Loan 1	62.46	2010-05-01
+Stafford Loan 1	62.46	2010-06-01
+Stafford Loan 1	62.46	2010-07-01
+Stafford Loan 1	62.46	2010-08-01
+Stafford Loan 1	62.46	2010-09-01
+Stafford Loan 1	62.46	2010-10-01
+Stafford Loan 1	62.46	2010-11-01
+Stafford Loan 1	62.46	2010-12-01
+Stafford Loan 1	62.46	2011-01-01
+Stafford Loan 1	62.46	2011-02-01
+Stafford Loan 1	62.46	2011-03-01
+Stafford Loan 1	62.46	2011-04-01
+Stafford Loan 1	62.46	2011-05-01
+Stafford Loan 1	62.46	2011-06-01
+Stafford Loan 1	62.46	2011-07-01
+Stafford Loan 1	62.46	2011-08-01
+Stafford Loan 1	62.46	2011-09-01
+Stafford Loan 1	62.46	2011-10-01
+Stafford Loan 1	62.46	2011-11-01
+Stafford Loan 2	169.88	2008-12-01
+Stafford Loan 2	169.88	2009-01-01
+Stafford Loan 2	169.88	2009-02-01
+Stafford Loan 2	169.88	2009-03-01
+Stafford Loan 2	169.88	2009-04-01
+Stafford Loan 2	169.88	2009-05-01
+Stafford Loan 2	169.88	2009-06-01
+Stafford Loan 2	169.88	2009-07-01
+Stafford Loan 2	169.88	2009-08-01
+Stafford Loan 2	169.88	2009-09-01
+Stafford Loan 2	169.88	2009-10-01
+Stafford Loan 2	169.88	2009-11-01
+Stafford Loan 2	169.88	2009-12-01
+Stafford Loan 2	169.88	2010-01-01
+Stafford Loan 2	169.88	2010-02-01
+Stafford Loan 2	169.88	2010-03-01
+Stafford Loan 2	169.88	2010-04-01
+Stafford Loan 2	169.88	2010-05-01
+Stafford Loan 2	169.88	2010-06-01
+Stafford Loan 2	169.88	2010-07-01
+Stafford Loan 2	169.88	2010-08-01
+Stafford Loan 2	169.88	2010-09-01
+Stafford Loan 2	169.88	2010-10-01
+Stafford Loan 2	169.88	2010-11-01
+Stafford Loan 2	169.88	2010-12-01
+Stafford Loan 2	169.88	2011-01-01
+Stafford Loan 2	169.88	2011-02-01
+Stafford Loan 2	169.88	2011-03-01
+Stafford Loan 2	169.88	2011-04-01
+Stafford Loan 2	169.88	2011-05-01
+Stafford Loan 2	169.88	2011-06-01
+Stafford Loan 2	169.88	2011-07-01
+Stafford Loan 2	169.88	2011-08-01
+Stafford Loan 2	169.88	2011-09-01
+Stafford Loan 2	169.88	2011-10-01
+Stafford Loan 2	169.88	2011-11-01
+Tithes	51.30	2008-08-01
+Tithes	203.00	2008-09-01
+Tithes	51.30	2008-10-01
+Tithes	280.00	2008-11-01
+Tithes	280.00	2008-12-01
+Tithes	280.00	2009-01-01
+Tithes	280.00	2009-02-01
+Tithes	280.00	2009-03-01
+Tithes	286.00	2009-04-01
+Tithes	286.00	2009-05-01
+Tithes	286.00	2009-06-01
+Tithes	286.00	2009-07-01
+Tithes	362.70	2009-08-01
+Tithes	362.70	2009-09-01
+Tithes	362.70	2009-10-01
+Tithes	362.70	2009-11-01
+Tithes	362.70	2009-12-01
+Tithes	353.10	2010-01-01
+Tithes	353.10	2010-02-01
+Tithes	353.10	2010-03-01
+Tithes	353.10	2010-04-01
+Tithes	353.10	2010-05-01
+Tithes	353.10	2010-06-01
+Tithes	353.10	2010-07-01
+Tithes	436.60	2010-08-01
+Tithes	436.60	2010-09-01
+Tithes	460.00	2010-10-01
+Tithes	471.55	2010-11-01
+Tithes	471.55	2010-12-01
+Tithes	471.55	2011-01-01
+Tithes	460.70	2011-02-01
+Tithes	460.70	2011-03-01
+Tithes	460.70	2011-04-01
+Tithes	460.70	2011-05-01
+Tithes	460.70	2011-06-01
+Tithes	460.70	2011-07-01
+Tithes	466.20	2011-08-01
+Tithes	466.20	2011-09-01
+Tithes	466.20	2011-10-01
+Tithes	490.95	2011-11-01
+Vehicle Maintenance	222.60	2008-08-01
+Vehicle Maintenance	222.60	2008-09-01
+VISTA	767.88	2009-08-01
+VISTA	820.12	2009-09-01
+VISTA	820.12	2009-10-01
+VISTA	820.12	2009-11-01
+VISTA	820.12	2009-12-01
+VISTA	820.12	2010-01-01
+VISTA	820.12	2010-02-01
+VISTA	820.12	2010-03-01
+VISTA	820.12	2010-04-01
+VISTA	820.12	2010-05-01
+VISTA	820.12	2010-06-01
+VISTA	820.12	2010-07-01
+VISTA	0.00	2010-08-01
+VISTA	0.00	2010-09-01
+VISTA	0.00	2010-10-01
+VISTA	0.00	2010-11-01
+VISTA	0.00	2010-12-01
+VISTA	0.00	2011-01-01
+VISTA	0.00	2011-02-01
+VISTA	0.00	2011-03-01
+VISTA	0.00	2011-04-01
+VISTA	0.00	2011-05-01
+VISTA	0.00	2011-06-01
+VISTA	0.00	2011-07-01
+VISTA	0.00	2011-08-01
+VISTA	0.00	2011-09-01
+VISTA	0.00	2011-10-01
+VISTA	0.00	2011-11-01
+Water Bill	13.96	2008-09-01
+Water Bill	13.96	2008-10-01
+Water Bill	35.00	2008-11-01
+Water Bill	40.00	2008-12-01
+Water Bill	40.00	2009-01-01
+Water Bill	40.00	2009-02-01
+Water Bill	40.00	2009-03-01
+Water Bill	40.00	2009-04-01
+Water Bill	40.00	2009-05-01
+Water Bill	40.00	2009-06-01
+Water Bill	40.00	2009-07-01
+Water Bill	40.00	2009-08-01
+Water Bill	40.00	2009-09-01
+Water Bill	40.00	2009-10-01
+Water Bill	40.00	2009-11-01
+Water Bill	40.00	2009-12-01
+Water Bill	33.43	2010-01-01
+Water Bill	33.43	2010-02-01
+Water Bill	33.43	2010-03-01
+Water Bill	33.43	2010-04-01
+Water Bill	33.43	2010-05-01
+Water Bill	33.43	2010-06-01
+Water Bill	33.43	2010-07-01
+Water Bill	30.00	2010-08-01
+Water Bill	30.00	2010-09-01
+Water Bill	30.00	2010-10-01
+Water Bill	35.00	2010-11-01
+Water Bill	30.00	2010-12-01
+Water Bill	30.00	2011-01-01
+Water Bill	30.00	2011-02-01
+Water Bill	30.00	2011-03-01
+Water Bill	30.00	2011-04-01
+Water Bill	30.00	2011-05-01
+Water Bill	30.00	2011-06-01
+Water Bill	30.00	2011-07-01
+Water Bill	30.00	2011-08-01
+Water Bill	30.00	2011-09-01
+Water Bill	45.00	2011-10-01
+Water Bill	45.00	2011-11-01

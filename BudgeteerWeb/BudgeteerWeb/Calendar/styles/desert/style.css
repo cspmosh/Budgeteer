@@ -1,0 +1,478 @@
+.calendarCalendar {
+	border:1px solid #d2cfbd;
+	background-image:url('background.gif');
+	text-align:left;
+}
+.calendarTitle {
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+	padding:0px;
+	padding-bottom:1px;
+	padding-top:5px;
+    margin:0px;
+	border:0px;
+}
+.calendarArrowLeft {
+	font:12px Tahoma;
+	cursor:pointer; cursor:hand;
+	background-image:url('arrow_left.gif');
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:10px;
+	width:20px;
+	padding:0px;
+    margin:0px;
+	margin-left:3px;
+	border:0px;
+}
+.calendarArrowRight{
+	font:12px Tahoma;
+	cursor:pointer; cursor:hand;
+	background-image:url('arrow_right.gif');
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:10px;
+	width:20px;
+	padding:0px;
+    margin:0px;
+	margin-right:3px;
+	border:0px;
+}
+.calendarMonth {
+	background-image:url('background_month.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	border:0px;
+}
+.calendarMonthTitle {
+	font:bold 12px Tahoma;
+	text-align:center;
+    padding:0px;
+	padding-top:5px;
+	padding-bottom:4px;
+	color:#928f7e;
+}
+.calendarDayName {
+	font:bold 11px Tahoma;
+	color:#928f7e;
+	text-align:center;
+	padding:0px;
+}
+.calendarDay {
+	font:11px Tahoma;
+	color:#666666;
+	text-align:center;
+	cursor:pointer; cursor:hand;
+	height:18px;
+	width:22px;
+	padding:0px;
+}
+.calendarDayOver {
+	font:11px Tahoma;
+	color:#666666;
+	text-align:center;
+	cursor:pointer; cursor:hand;
+	height:18px;
+	width:22px;
+    border:1px solid #666666;
+    padding:0px;
+}
+.calendarDayToday {
+	font:11px Tahoma;
+	color:#666666;
+	text-align:center;
+	background-image:url('background_day_today.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	cursor:pointer; cursor:hand;
+	height:18px;
+	width:22px;
+	padding:0px;
+    border:0px;
+    background-color:#f6f5f0;
+}
+.calendarDayTodayOver {
+	font:11px Tahoma;
+	color:#666666;
+	text-align:center;
+	background-image:url('background_day_today.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	cursor:pointer; cursor:hand;
+	height:18px;
+	width:22px;
+	padding:0px;
+    border:0px;
+    background-color:#f6f5f0;
+}
+.calendarDayDisabled {
+	font:11px Tahoma;
+	color:#d6d5b1;
+	text-align:center;
+	height:18px;
+	width:22px;
+	padding:0px; 
+    border:0px;
+}
+.calendarDayDisabledOver {
+	font:11px Tahoma;
+	color:#d6d5b1;
+	text-align:center;
+	height:18px;
+	width:22px;
+	padding:0px; 
+    border:0px;
+}
+.calendarDaySelected {
+	font:11px Tahoma;
+	color:#666666;
+	text-align:center;
+	background-image:url('date_selected.gif');
+	background-repeat:no-repeat;
+	height:18px;
+	width:22px;
+	padding:0px;
+    border:0px;
+    background-color:#f6f5f0;
+}
+.calendarDaySelectedOver {
+	font:11px Tahoma;
+	color:#666666;
+	text-align:center;
+	background-image:url('date_selected.gif');
+	background-repeat:no-repeat;
+	height:18px;
+	width:22px;
+	padding:0px;
+    border:0px;
+    background-color:#f6f5f0;
+}
+.calendarDaySpecial {
+	font:11px Tahoma;
+	color:#ffffff;
+	text-align:center;
+	background-image:url('background_day_special.gif');
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:18px;
+	width:22px;
+    border:0px;
+    padding:0px;
+}
+.calendarDaySpecialOver {
+	font:11px Tahoma;
+	color:#ffffff;
+	text-align:center;
+	background-image:url('background_day_special.gif');
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:18px;
+	width:22px;
+    border:0px;
+    padding:0px;
+}
+
+.calendarDatePickerButton {
+	cursor:pointer; cursor:hand;
+	vertical-align:bottom;
+}
+
+/******************/
+/* year selector */
+.calendarYearSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarYearSelectorContainer
+{
+	border:1px solid #d2cfbd;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:white;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarYearSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarYearSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarYearSelected
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	text-align:center;
+	background-color:#928f7e;
+	color:#ffffff;
+}
+.calendarYearSelector
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+/* year selector */
+/******************/
+
+/******************/
+/* month selector */
+.calendarMonthSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarMonthSelectorContainer
+{
+	border:1px solid #d2cfbd;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:white;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarMonthSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMonthSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMonthSelected
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	text-align:center;
+	background-color:#928f7e;
+	color:#ffffff;
+}
+.calendarMonthSelector
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+/* month selector */
+/******************/
+
+/******************/
+/* hour selector */
+.calendarHourSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarHourSelectorContainer
+{
+	border:1px solid #d2cfbd;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:white;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarHourSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarHourSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarHourSelected
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	text-align:center;
+	background-color:#928f7e;
+	color:#ffffff;
+}
+.calendarHourSelector
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+/* hour selector */
+/******************/
+
+/******************/
+/* minute selector */
+.calendarMinuteSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarMinuteSelectorContainer
+{
+	border:1px solid #d2cfbd;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:white;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarMinuteSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMinuteSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarMinuteSelected
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	text-align:center;
+	background-color:#928f7e;
+	color:#ffffff;
+}
+.calendarMinuteSelector
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+/* minute selector */
+/******************/
+
+/******************/
+/* second selector */
+.calendarSecondSelectorTitle 
+{
+	cursor:pointer;
+	display:inline;
+	padding-left:5px;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarSecondSelectorContainer
+{
+	border:1px solid #d2cfbd;
+	padding-left:5px;
+	padding-right:5px;
+	display:none;
+	background-color:white;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+.calendarSecondSelectorArrowUp
+{
+	cursor:pointer;
+	background:url('arrowUp.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarSecondSelectorArrowDown
+{
+	cursor:pointer;
+	background:url('arrowDown.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.calendarSecondSelected
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	text-align:center;
+	background-color:#928f7e;
+	color:#ffffff;
+}
+.calendarSecondSelector
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	text-align:center;
+}
+/* second selector */
+/******************/
+
+.calendarSelectTime
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	color:#928f7e;
+	padding:5px;
+	text-decoration:none;
+	text-align:center;
+}
+.calendarSelectTime:hover
+{
+	cursor:pointer;
+	font:bold 12px Tahoma;
+	color:#000000;
+	padding:5px;
+	text-decoration:none;
+	text-align:center;
+}

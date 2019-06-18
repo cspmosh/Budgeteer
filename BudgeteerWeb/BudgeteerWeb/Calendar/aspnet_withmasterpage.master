@@ -1,0 +1,42 @@
+<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>obout ASP.NET Calendar examples</title>
+
+	<style type="text/css">
+			
+			.tdText {
+                font:11px Verdana;
+                color:#333333;
+            }
+		a {
+			font:11px Verdana;
+			color:#315686;
+			text-decoration:underline;
+		}
+
+	</style>
+</head>
+<body>
+    <form id="Form1" runat="server">
+	        <span class="tdText"><b>ASP.NET Calendar - Inside Master Page</b></span>
+		    <br /><br />	
+			<br /><br />  
+			
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder>
+            
+            <br /><br /><br /><br /><br />
+    	    
+	        <a style="font-size:10pt;font-family:Tahoma" href="Default.aspx?type=ASPNET">« Back to examples</a>
+	        
+	    </form>
+</body>
+</html>

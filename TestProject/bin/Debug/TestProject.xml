@@ -1,0 +1,149 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TestProject
+</name>
+</assembly>
+<members>
+<member name="P:TestProject.BudgeteerTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.UpdateUserPasswordTest">
+	<summary>
+A test for UpdateUserPassword
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.UpdateUserEmailAddressTest">
+	<summary>
+A test for UpdateUserEmailAddress
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.UpdateTransactionTest">
+	<summary>
+A test for UpdateTransaction
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.UpdateSubcategoryTest">
+	<summary>
+A test for UpdateSubcategory
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.UpdateFrequencyTest">
+	<summary>
+A test for UpdateFrequency
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.UpdateCategoryTest">
+	<summary>
+A test for UpdateCategory
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.UpdateBudgetTest">
+	<summary>
+A test for UpdateBudget
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.UpdateBankAccountTest">
+	<summary>
+A test for UpdateBankAccount
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.SetApplicationSettingTest">
+	<summary>
+A test for SetApplicationSetting
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.GetTransactionsTest">
+	<summary>
+A test for GetTransactions
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.GetSubcategoriesTest">
+	<summary>
+A test for GetSubcategories
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.GetFrequenciesTest">
+	<summary>
+A test for GetFrequencies
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.GetCategoriesTest">
+	<summary>
+A test for GetCategories
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.GetBudgetsTest">
+	<summary>
+A test for GetBudgets
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.GetBankAccountsTest">
+	<summary>
+A test for GetBankAccounts
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.GetApplicationSettingTest">
+	<summary>
+A test for GetApplicationSetting
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.DeleteTransactionTest">
+	<summary>
+A test for DeleteTransaction
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.DeleteSubcategoryTest">
+	<summary>
+A test for DeleteSubcategory
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.deleteFrequencyTest">
+	<summary>
+A test for deleteFrequency
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.DeleteCategoryTest">
+	<summary>
+A test for DeleteCategory
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.DeleteBudgetTest">
+	<summary>
+A test for DeleteBudget
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.DeleteBankAccountTest">
+	<summary>
+A test for DeleteBankAccount
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.AuthenticateUserTest">
+	<summary>
+A test for AuthenticateUser
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.AdjustSubcategoryBalanceTest">
+	<summary>
+A test for AdjustSubcategoryBalance
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.AdjustBankAccountBalanceTest">
+	<summary>
+A test for AdjustBankAccountBalance
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.AddTransactionTest">
+	<summary>
+A test for AddTransaction
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.AddSubcategoryTest">
+	<summary>
+A test for AddSubcategory
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.AddFrequencyTest">
+	<summary>
+A test for AddFrequency
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.AddCategoryTest">
+	<summary>
+A test for AddCategory
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.AddBudgetTest">
+	<summary>
+A test for AddBudget
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.AddBankAccountTest">
+	<summary>
+A test for AddBankAccount
+</summary>
+</member><member name="M:TestProject.BudgeteerTest.GetApplicationSettingsTest">
+	<summary>
+A test for GetApplicationSettings
+</summary>
+</member><member name="T:TestProject.BudgeteerTest">
+	<summary>
+This is a test class for BudgeteerTest and is intended
+to contain all BudgeteerTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>
